@@ -1,0 +1,213 @@
+{
+  "entries": [
+    {
+      "property": "24377-newhall",
+      "category": "subject",
+      "lat": 34.378503,
+      "lng": -118.5321917,
+      "place_id": "ChIJzSyoHmKGwoAR3GXzXNsgNOc",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "sold",
+      "order": 1,
+      "lat": 34.384789,
+      "lng": -118.536387,
+      "place_id": "ChIJG8gF_fSGwoARPWgcEoM-3F4",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "sold",
+      "order": 2,
+      "lat": 34.3859214,
+      "lng": -118.5352463,
+      "place_id": "ChIJ6ZjjrvWGwoARVertEe7IcxU",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "sold",
+      "order": 3,
+      "lat": 34.4173234,
+      "lng": -118.5424733,
+      "place_id": "ChIJlzdh0A2HwoARjmbSvFwfuC4",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "sold",
+      "order": 4,
+      "lat": 34.4232757,
+      "lng": -118.4531212,
+      "place_id": "ChIJd3OWw_eIwoARmPshUR1Kyhk",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "sold",
+      "order": 5,
+      "lat": 34.3843007,
+      "lng": -118.5360048,
+      "place_id": "ChIJrbMYHvWGwoARtRT-u4H6Q14",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "sold",
+      "order": 6,
+      "lat": 34.3890865,
+      "lng": -118.5369006,
+      "place_id": "ChIJC2uC7faGwoAR4DITYe4XrkQ",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "sold",
+      "order": 7,
+      "lat": 34.3791971,
+      "lng": -118.5328581,
+      "place_id": "ChIJ-7oX42GGwoARYAAxsVPw960",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "sold",
+      "order": 8,
+      "lat": 34.3789142,
+      "lng": -118.5297554,
+      "place_id": "ChIJjzU40WOGwoARetEstDcdY84",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "active",
+      "order": 1,
+      "lat": 34.3851326,
+      "lng": -118.533872,
+      "place_id": "ChIJV4OIb_WGwoARk-ULWSZfBVo",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "active",
+      "order": 2,
+      "lat": 34.3785081,
+      "lng": -118.5286955,
+      "place_id": "ChIJwVly6mOGwoARrqoLNBk7Wrs",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "active",
+      "order": 3,
+      "lat": 34.3811397,
+      "lng": -118.5321198,
+      "place_id": "ChIJ1VaDzGGGwoAR2DmT-xC0x8I",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "rent",
+      "order": 1,
+      "lat": 34.3783911,
+      "lng": -118.5293609,
+      "place_id": "ChIJrUpuxmOGwoAR8-0f79A0_Xo",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "rent",
+      "order": 2,
+      "lat": 34.3850134,
+      "lng": -118.5348848,
+      "place_id": "ChIJS5PyDfWGwoAR7Q0vkuOlxLM",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "rent",
+      "order": 3,
+      "lat": 34.3850134,
+      "lng": -118.5348848,
+      "place_id": "ChIJS5PyDfWGwoAR7Q0vkuOlxLM",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "rent",
+      "order": 4,
+      "lat": 34.386129,
+      "lng": -118.5345517,
+      "place_id": "ChIJzbMDmfWGwoARkzXgaONoU4w",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "rent",
+      "order": 5,
+      "lat": 34.386129,
+      "lng": -118.5345517,
+      "place_id": "ChIJzbMDmfWGwoARkzXgaONoU4w",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    },
+    {
+      "property": "24377-newhall",
+      "category": "rent",
+      "order": 6,
+      "lat": 34.3852503,
+      "lng": -118.5339744,
+      "place_id": "ChIJRdcmcPWGwoARgyZ36s-223A",
+      "precision": "ROOFTOP",
+      "needs_review": false
+    }
+  ],
+  "renders": {
+    "images/maps-portfolio-subjects.png": "be87aea2c974c4ed87c25a34b779cf294a6ddbce9db69993ceef2ff1519fb5ef",
+    "images/maps-portfolio-subjects-tall.png": "97e9953472bf0d55d3dcc60847f11e02bb654636017b932c03f04590f2de2818",
+    "images/maps-24377-newhall-subject.png": "778f847336bb6b1a6b063ef341ce17e56c8d8563c7111bf46eb512bad9d241af",
+    "images/maps-24377-newhall-subject-tall.png": "92597294e8be2e62581b010142c4b88983c45571856aabf5c18f113626e540f0",
+    "images/maps-24377-newhall-sale-comps.png": "fa0f4284ff402878fb9db98f20502c65149460b0437f1b3e9a000b92b61971d5",
+    "images/maps-24377-newhall-sale-comps-tall.png": "005f7c4fd8c195fde2a5e5a994320cb9580f1f21f7802a4a662c87a3fc5a0c89",
+    "images/maps-24377-newhall-rent-comps.png": "a5d3c6e7a254fe9f53a18d1878cef0d0f80c4924b4bf7249d2f79e12b1c20a3e",
+    "images/maps-24377-newhall-rent-comps-tall.png": "6f1b10129c5dbda7e72bc67a704b593cdf2bbb43633dc0c9fda0ad8d713865fd",
+    "images/maps-24377-newhall-active-comps.png": "02c230b8d34b4ba6c83c1ef9aa73a48a3fe79024296ecb71a96876c1b1d4b3a4",
+    "images/maps-24377-newhall-active-comps-tall.png": "43720d80e8b8d2940de911b264f5eec58127c9639a0e8f37b0336cbc6fea9541",
+    "images/maps-24377-newhall-closings.png": "bfca9dde6b44cc36c2c9ce16f6ea9fb05dad799f4402d6f1f95f2abae44a559d"
+  },
+  "closings": {
+    "24377-newhall": {
+      "source": "https://www.laaa.com/track-record",
+      "pulled": "2026-09-04T21:34:40+00:00",
+      "basis": {
+        "type": "radius",
+        "label": "within 10 miles",
+        "radius_mi": 10
+      },
+      "apartment_sales": 14,
+      "other_closings": 2,
+      "apartment_markers": 14,
+      "other_markers": 2,
+      "activity_markers": 0,
+      "render": "images/maps-24377-newhall-closings.png"
+    }
+  }
+}

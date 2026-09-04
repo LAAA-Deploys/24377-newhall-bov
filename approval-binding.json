@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "deal",
+  "deal_id": "24377-newhall-ave",
+  "portfolio_id": null,
+  "package_version": "v9",
+  "approved_at": "2026-09-04T22:15:37.553247+00:00",
+  "approver": "Logan Ward",
+  "price": {
+    "value": 13500000
+  },
+  "approved_exception_ids": [
+    "exc-24802-contract-price",
+    "exc-central-ac-claim",
+    "exc-comp-gba-suspect",
+    "exc-comp-photo-watermarks",
+    "exc-expense-basis",
+    "exc-hero-source",
+    "exc-insurance-basis",
+    "exc-lihtc-restriction-status",
+    "exc-non-market-buyer-sales",
+    "exc-parking-count",
+    "exc-portfolio-allocation",
+    "exc-rent-comp-status",
+    "exc-rent-comp-unit-size",
+    "exc-rent-comps-pending",
+    "exc-scheduled-rent-delta",
+    "exc-subject-photo-currency",
+    "exc-tax-anchor-residual",
+    "exc-zoning-designation"
+  ],
+  "domains": {
+    "copy": {
+      "content_sha256": "c27e66e2d1701624e8f940fdb7ed6be26e621242b988c80cf1e8d40f820b0b91"
+    },
+    "financial_inputs": {
+      "content_sha256": "6075fbdc46edca2d55a3b7b42d62b61fdeca8b6916691571c2bf0d2f17320bef"
+    },
+    "identity": {
+      "content_sha256": "2f85c0c5887b8a785e962b207e850f54ec5e5289df7492f88fdcade06a7cf394"
+    },
+    "media_selection": {
+      "content_sha256": "9f947dc9081cf5ddd1d948cd8dd56f48b2f7307b934d03507c56a3a16e329390"
+    },
+    "pricing_decision": {
+      "content_sha256": "f45ab1780116312bab48171d69ae566811687aa37e523dcaf0a2ea9095dc0dc1"
+    },
+    "regulatory_conclusions": {
+      "content_sha256": "fcdb6613ce1c5ffbaaf839ca8628b0e819aaa4cb02252508ccbe741d2dcd88fc"
+    },
+    "rent_comps": {
+      "content_sha256": "3a361bb3ca936cc6b0609013a0eeabb5279f8836e2e9c6959e3a4c200ae284fb"
+    },
+    "sale_comps": {
+      "content_sha256": "ecc758df111d9e476f99cad3bcbc9d466f8d6d5c1aca73c20b8fdec63e0b21a3"
+    }
+  },
+  "legacy_snapshot": false,
+  "legacy_label": null,
+  "members": null
+}
