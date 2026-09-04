@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "24377-newhall-ave",
   "portfolio_id": null,
-  "package_version": "v9",
-  "approved_at": "2026-09-04T22:15:37.553247+00:00",
+  "package_version": "v10",
+  "approved_at": "2026-09-04T22:20:08.019595+00:00",
   "approver": "Logan Ward",
   "price": {
     "value": 13500000
@@ -31,7 +31,7 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "c27e66e2d1701624e8f940fdb7ed6be26e621242b988c80cf1e8d40f820b0b91"
+      "content_sha256": "aefd0d1444fdce1caf76ea155ee6629cc2c7c072eb2e942d84a4a85fe4f21f72"
     },
     "financial_inputs": {
       "content_sha256": "6075fbdc46edca2d55a3b7b42d62b61fdeca8b6916691571c2bf0d2f17320bef"
