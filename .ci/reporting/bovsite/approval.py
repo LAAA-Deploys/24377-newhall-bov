@@ -548,6 +548,16 @@ def check_site_record(site: Path) -> tuple[list[str], list[str], dict | None]:
                 ) if isinstance(media_contract, dict) else None
             if properties[0].get("hero") != expected_ref:
                 errors.append("site hero differs from the approved media selection")
+            # Mirrors the gallery construction in payload.py: a published image
+            # already used beside a comp row is not part of the property
+            # gallery. These two must stay in lockstep, because this gate
+            # rebuilds the expected gallery independently and compares.
+            used_elsewhere = {
+                row.get("image")
+                for key in ("sale_comps", "active_comps", "rent_comps")
+                for row in (properties[0].get(key) or [])
+                if row.get("image")
+            }
             expected_gallery = [
                 {
                     "src": f"images/{by_id[item_id]['filename']}",
@@ -555,6 +565,7 @@ def check_site_record(site: Path) -> tuple[list[str], list[str], dict | None]:
                 }
                 for item_id in media["published"]["order"]
                 if item_id != expected_hero and item_id in by_id
+                and by_id[item_id]["filename"] not in used_elsewhere
             ]
             if properties[0].get("gallery") != expected_gallery:
                 errors.append("site gallery differs from the approved media order")

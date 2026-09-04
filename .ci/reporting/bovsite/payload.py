@@ -1156,6 +1156,20 @@ def _build_payload(workspace: DealWorkspace) -> dict:
     _assign_map_refs(sale_rows, sale_sources, "sold")
     _assign_map_refs(active_rows, active_sources, "active")
 
+    # Property Photos shows the SUBJECT. A published image already used
+    # elsewhere on the page does not also belong in the gallery: it is not a
+    # second photograph of this building, it is the same asset rendered twice.
+    # Before this the gallery was every published item except the hero, so on
+    # 24377 Newhall eight sale-comp photographs rendered under Property Photos
+    # AND, correctly, beside their own comp rows (Logan Ward, 2026-09-04:
+    # "there is a bunch of pictures of sales comparisons in that and it looks
+    # confusing"). Filtering on ACTUAL USE rather than on a category-name
+    # convention keeps this correct for any category string a deal invents.
+    used_elsewhere = {
+        row["image"]
+        for row in (*sale_rows, *active_rows, *rent_rows)
+        if row.get("image")
+    }
     gallery = [
         {
             "src": f"images/{by_media_id[item_id]['filename']}",
@@ -1163,6 +1177,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         }
         for item_id in media["published"]["order"]
         if item_id != hero_id
+        and by_media_id[item_id]["filename"] not in used_elsewhere
     ]
     maps = presentation.get("maps") or {}
     property_payload = {

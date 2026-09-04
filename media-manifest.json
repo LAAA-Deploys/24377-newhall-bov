@@ -271,40 +271,10 @@
       "rendered_width": 1490,
       "rendered_height": 770,
       "exception_id": null
-    },
-    {
-      "id": "subject-plat-map",
-      "filename": "subject-plat-map.png",
-      "sha256": "e9203d78bd4448f7c7f9fbe1102732a3f9209d107cb679beb8b18bfd60cbf520",
-      "phash": "b2339989c6c6cf8a",
-      "source": "web_other",
-      "source_url": null,
-      "access_date": "2026-09-04",
-      "category": "parcel_map",
-      "width": 662,
-      "height": 538,
-      "stock_or_illustrative": false,
-      "stock_basis": null,
-      "property_match": "confirmed_human",
-      "match_basis": "County assessor plat map with the subject parcel shaded across lots 29, 30, 31 and 32 of Tract 1059, matching the legal description recorded for APN 2830-017-015.",
-      "reviewed_by": "Logan Ward",
-      "reviewed_at": "2026-09-04T22:15:00Z",
-      "rights_holder": "Los Angeles County Assessor",
-      "publication_basis": "glen_standing_rule",
-      "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
-      "required_credit": null,
-      "status": "published",
-      "rejected_reason": null,
-      "rendered_width": 662,
-      "rendered_height": 538,
-      "exception_id": null
     }
   ],
   "published": {
     "order": [
-      "subject-hero",
-      "subject-exterior-2",
-      "subject-plat-map",
       "comp-24411-newhall",
       "comp-24966-walnut",
       "comp-22710-8th",
@@ -312,9 +282,11 @@
       "comp-24838-newhall",
       "comp-24851-walnut",
       "comp-26087-bouquet",
-      "comp-18046-beneda"
+      "comp-18046-beneda",
+      "subject-hero",
+      "subject-exterior-2"
     ],
     "hero": "subject-hero",
-    "contact_sheet_sha256": "58ea786fe7b0cb98d738fdc75b593cd07cd6b7c8f9c3f9dfe492606c025dbe51"
+    "contact_sheet_sha256": "b483c05f8a176f6d0d741b3419e611ff4c3d880969815139b07a39f26b970a4e"
   }
 }

@@ -508,42 +508,6 @@
         {
           "src": "images/subject-exterior-2.png",
           "alt": "Subject Exterior"
-        },
-        {
-          "src": "images/subject-plat-map.png",
-          "alt": "Parcel Map"
-        },
-        {
-          "src": "images/comp-24411-newhall.png",
-          "alt": "Sale Comp"
-        },
-        {
-          "src": "images/comp-24966-walnut.png",
-          "alt": "Sale Comp"
-        },
-        {
-          "src": "images/comp-22710-8th.png",
-          "alt": "Sale Comp"
-        },
-        {
-          "src": "images/comp-24802-walnut.png",
-          "alt": "Sale Comp"
-        },
-        {
-          "src": "images/comp-24838-newhall.png",
-          "alt": "Sale Comp"
-        },
-        {
-          "src": "images/comp-24851-walnut.png",
-          "alt": "Sale Comp"
-        },
-        {
-          "src": "images/comp-26087-bouquet.png",
-          "alt": "Sale Comp"
-        },
-        {
-          "src": "images/comp-18046-beneda.png",
-          "alt": "Sale Comp"
         }
       ],
       "maps": {
@@ -2539,9 +2503,6 @@
     "media_selection": {
       "deal_id": "24377-newhall-ave",
       "order": [
-        "subject-hero",
-        "subject-exterior-2",
-        "subject-plat-map",
         "comp-24411-newhall",
         "comp-24966-walnut",
         "comp-22710-8th",
@@ -2549,49 +2510,12 @@
         "comp-24838-newhall",
         "comp-24851-walnut",
         "comp-26087-bouquet",
-        "comp-18046-beneda"
+        "comp-18046-beneda",
+        "subject-hero",
+        "subject-exterior-2"
       ],
       "hero": "subject-hero",
       "items": [
-        {
-          "id": "subject-hero",
-          "sha256": "6406bb9a3e5646a478236e2af9824f80b1e0ab6ed57d294c639b9bcf4370ed78",
-          "phash": "dcc4b73b086286cf",
-          "category": "subject_exterior",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "Two-story garden elevation on Newhall Avenue supplied by the deal owner as the subject cover photo; the shingle and stucco elevation and the street verge match the aerial footprint for APN 2830-017-015.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
-          "required_credit": null,
-          "exception_id": null
-        },
-        {
-          "id": "subject-exterior-2",
-          "sha256": "cd9d8b7f022462d0bbe42d6c80cd61234ec24db75cef92ec7f599381f839abec",
-          "phash": "9bbbc41762cc385a",
-          "category": "subject_exterior",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "Second elevation of the same building. The mature blue cedar and the shingle bay match the Newhall Terrace Apartments listing photograph retrieved independently from Apartment Finder for 24377 Newhall Ave.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
-          "required_credit": null,
-          "exception_id": null
-        },
-        {
-          "id": "subject-plat-map",
-          "sha256": "e9203d78bd4448f7c7f9fbe1102732a3f9209d107cb679beb8b18bfd60cbf520",
-          "phash": "b2339989c6c6cf8a",
-          "category": "parcel_map",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "County assessor plat map with the subject parcel shaded across lots 29, 30, 31 and 32 of Tract 1059, matching the legal description recorded for APN 2830-017-015.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
-          "required_credit": null,
-          "exception_id": null
-        },
         {
           "id": "comp-24411-newhall",
           "sha256": "7af7932eadb2c6db954d7e6ba88ceb8f650f64732a6c0f45ac25ff51d197d9e0",
@@ -2691,6 +2615,32 @@
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
           "match_basis": "Aerial matches the hillside setting and three-story elevation in the CoStar record for 18046 Beneda Ln.",
+          "publication_basis": "glen_standing_rule",
+          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
+          "required_credit": null,
+          "exception_id": null
+        },
+        {
+          "id": "subject-hero",
+          "sha256": "6406bb9a3e5646a478236e2af9824f80b1e0ab6ed57d294c639b9bcf4370ed78",
+          "phash": "dcc4b73b086286cf",
+          "category": "subject_exterior",
+          "stock_or_illustrative": false,
+          "property_match": "confirmed_human",
+          "match_basis": "Two-story garden elevation on Newhall Avenue supplied by the deal owner as the subject cover photo; the shingle and stucco elevation and the street verge match the aerial footprint for APN 2830-017-015.",
+          "publication_basis": "glen_standing_rule",
+          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
+          "required_credit": null,
+          "exception_id": null
+        },
+        {
+          "id": "subject-exterior-2",
+          "sha256": "cd9d8b7f022462d0bbe42d6c80cd61234ec24db75cef92ec7f599381f839abec",
+          "phash": "9bbbc41762cc385a",
+          "category": "subject_exterior",
+          "stock_or_illustrative": false,
+          "property_match": "confirmed_human",
+          "match_basis": "Second elevation of the same building. The mature blue cedar and the shingle bay match the Newhall Terrace Apartments listing photograph retrieved independently from Apartment Finder for 24377 Newhall Ave.",
           "publication_basis": "glen_standing_rule",
           "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
           "required_credit": null,
@@ -2795,7 +2745,7 @@
       "sale_comps": "ecc758df111d9e476f99cad3bcbc9d466f8d6d5c1aca73c20b8fdec63e0b21a3",
       "rent_comps": "3a361bb3ca936cc6b0609013a0eeabb5279f8836e2e9c6959e3a4c200ae284fb",
       "copy": "aefd0d1444fdce1caf76ea155ee6629cc2c7c072eb2e942d84a4a85fe4f21f72",
-      "media_selection": "9f947dc9081cf5ddd1d948cd8dd56f48b2f7307b934d03507c56a3a16e329390",
+      "media_selection": "c356966ff755844d287934f3b91b54ff52a120916847cc18994356d261c64ccd",
       "regulatory_conclusions": "fcdb6613ce1c5ffbaaf839ca8628b0e819aaa4cb02252508ccbe741d2dcd88fc"
     },
     "presentation_hashes": {
@@ -2805,13 +2755,13 @@
       "sale_comps": "2343003daaec6d28872e008e837d7361966e2735bf398361b65df3a239601678",
       "rent_comps": "548da12ab2529c69d22b692a6824c8cb49248437a0522fa6477bea0086663532",
       "copy": "f328473e14feff2b7b44a200ad0f67b5d881edc0ed07745eae28bce0871b5234",
-      "media_selection": "00ffa24529eef3ee241c8d3a89941105dd3d433554b4d6225f3d157cc601acbd",
+      "media_selection": "e3e18a9c15ec44094b83eac3d6cd2a3f980a6aeef43deb33561273cab74ad357",
       "regulatory_conclusions": "d8ce992751cba4732d941b6428bbbc8d745f739fa0b543c531658b80a0a24139"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-04T22:20:13+00:00",
+    "generated": "2026-09-04T22:48:40+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
