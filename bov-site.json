@@ -180,10 +180,10 @@
           "price_per_sf": 365.774357862794,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 10.764520141613243,
-          "grm_market": 8.741258741258742,
-          "cap_current": 5.406048444444444,
-          "cap_market": 7.774415407407408
+          "grm_current": 10.504201680672269,
+          "grm_market": 8.971291866028707,
+          "cap_current": 5.53156888888889,
+          "cap_market": 7.392808888888888
         },
         {
           "label": "Midpoint",
@@ -192,10 +192,10 @@
           "price_per_sf": 356.29131895524006,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 10.48543998979364,
-          "grm_market": 8.514633514633514,
-          "cap_current": 5.581505000000001,
-          "cap_market": 8.012908346007604
+          "grm_current": 10.231870525988173,
+          "grm_market": 8.738702817650186,
+          "cap_current": 5.710366292775666,
+          "cap_market": 7.621145
         },
         {
           "label": "Range bottom",
@@ -204,112 +204,112 @@
           "price_per_sf": 346.80828004768614,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 10.206359837974038,
-          "grm_market": 8.288008288008289,
-          "cap_current": 5.7665568359375,
-          "cap_market": 8.264443867187502
+          "grm_current": 9.959539371304077,
+          "grm_market": 8.506113769271664,
+          "cap_current": 5.8989416796875,
+          "cap_market": 7.861968242187499
         }
       ],
       "scheduled_rent": [
-        104510.0,
-        128700.0
+        107100.0,
+        125400.0
       ],
       "monthly_sgi": [
-        105593.33333333333,
-        134073.33333333334
+        108183.33333333333,
+        130773.33333333333
       ],
       "additional_income": [
         1083.3333333333333,
         5373.333333333333
       ],
-      "grm_current": 10.764520141613243,
-      "grm_market": 8.741258741258742,
-      "cap_current": 5.406048444444444,
-      "cap_market": 7.774415407407408,
+      "grm_current": 10.504201680672269,
+      "grm_market": 8.971291866028707,
+      "cap_current": 5.53156888888889,
+      "cap_market": 7.392808888888888,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 729816.54,
-      "noi_market": 1049546.08,
+      "noi_current": 746761.8,
+      "noi_market": 998029.2,
       "tax_rate": 1.186105,
       "tax_anchor": {
         "ad_valorem": 160124.17,
         "flat_assessments": 28875.83,
         "expense_line": "Taxes"
       },
-      "expense_total": 499679.86,
-      "expense_per_unit": 7570.906969696969,
-      "expense_per_sf": 13.538524439145984,
+      "expense_total": 512882.2,
+      "expense_per_unit": 7770.942424242425,
+      "expense_per_sf": 13.896233878833858,
       "unit_mix": [
         {
           "count": 66,
           "type": "1 Bed / 1 Bath",
           "sf": 550,
-          "rent_current": 1583.48,
-          "monthly_current": 104510,
-          "rent_market": 1950,
-          "monthly_market": 128700,
+          "rent_current": 1622.73,
+          "monthly_current": 107100,
+          "rent_market": 1900,
+          "monthly_market": 125400,
           "sf_basis": "labelled_estimate"
         }
       ],
       "operating": {
         "sgi": [
-          1267120,
-          1608880
+          1298200,
+          1569280
         ],
         "vacancy": [
-          37623.6,
-          46332
+          38556,
+          45144
         ],
-        "vacancy_pct": 2.969221541764,
+        "vacancy_pct": 2.9699584039439224,
         "vacancy_only": [
-          37623.6,
-          46332
+          38556,
+          45144
         ],
-        "vacancy_only_pct": 2.969221541764,
+        "vacancy_only_pct": 2.9699584039439224,
         "credit_loss": [
           0,
           0
         ],
         "credit_loss_pct": 0.0,
         "goi": [
-          1229496.4,
-          1562548
+          1259644,
+          1524136
         ],
         "expenses": [
-          499679.86,
-          513001.92
+          512882.2,
+          526106.8
         ],
         "expense_ratio": [
-          40.64101855035932,
-          32.83111430816845
+          40.716440518114645,
+          34.518363190686394
         ],
         "noi": [
-          729816.54,
-          1049546.08
+          746761.8,
+          998029.2
         ],
         "loan_payments": [
           0.0,
           0.0
         ],
         "pretax_cf": [
-          729816.54,
-          1049546.08
+          746761.8,
+          998029.2
         ],
         "pretax_cf_pct": [
-          5.406048444444444,
-          7.774415407407408
+          5.53156888888889,
+          7.392808888888888
         ],
         "principal_reduction": [
           0.0,
           0.0
         ],
         "total_return": [
-          729816.54,
-          1049546.08
+          746761.8,
+          998029.2
         ],
         "total_return_pct": [
-          5.406048444444444,
-          7.774415407407408
+          5.53156888888889,
+          7.392808888888888
         ]
       },
       "expense_lines": [
@@ -333,14 +333,14 @@
         ],
         [
           "Management Fee",
-          49179.86,
-          49179.86,
+          62982.2,
+          62982.2,
           "7"
         ],
         [
           "Manager",
-          23400,
-          23400,
+          22800,
+          22800,
           "8"
         ],
         [
@@ -370,7 +370,7 @@
         [
           "Underwriting Expense Adjustment",
           0.0,
-          13322.059999999998,
+          13224.600000000035,
           "13"
         ]
       ],
@@ -389,11 +389,11 @@
         ],
         "7": [
           "Management Fee",
-          "Third-party management at 4% of effective gross income, or $49,180."
+          "Third-party management at 5% of effective gross income, or $62,982."
         ],
         "8": [
           "Manager",
-          "$23,400 for the resident manager, carried as an expense with the manager unit held at full scheduled rent."
+          "$22,800 for the resident manager, carried as an expense with the manager unit held at the market rent."
         ],
         "9": [
           "Repairs Maintenance",
@@ -417,7 +417,7 @@
         ],
         "2": [
           "Scheduled Gross Income",
-          "Scheduled rent of $1,254,120 from the rent roll carried in the supporting model at its September 2, 2026 analysis date, with vacant units carried at asking rent."
+          "Scheduled rent of $1,285,200. The 58 occupied units are at their in-place rents; the five vacant units, the manager unit and two units pending an occupancy confirmation are carried at the $1,900 market asking rent."
         ],
         "3": [
           "Vacancy Reserve",
@@ -438,7 +438,7 @@
       "highlights": [
         "66 apartment units on 2.14 acres, built in 1972.",
         "One floor plan throughout: every unit is a one bedroom, one bath of approximately 550 square feet.",
-        "In-place rents average $1,583 per month against a $1,950 market rent, a gap of roughly 23% across all 66 units.",
+        "The 58 occupied units average $1,584 per month against a $1,900 market rent, a gap of roughly 20%.",
         "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
         "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
         "Numbered covered carport parking and two on-site laundry rooms.",
@@ -448,7 +448,7 @@
       "overview": [
         "Newhall Terrace Apartments is a 66-unit apartment building at 24377 Newhall Avenue in Santa Clarita, built in 1972 on a 2.14 acre parcel and containing approximately 36,908 gross square feet across two stories.",
         "The property is a single floor plan asset. All 66 units are one bedroom, one bath homes of approximately 550 square feet, which makes the rent roll unusually simple to underwrite and unusually simple to manage: one unit type, one turn cost, one market rent to solve for.",
-        "Rents in place average $1,583 per month. The market rent carried in the analysis is $1,950. Applied across all 66 units, that gap is roughly $290,000 of annual scheduled rent that the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it.",
+        "The 58 occupied units average $1,584 per month. The market rent carried in the analysis is $1,900, which sits just under the average of the one-bedroom comparables in this submarket. Across those occupied units that gap is roughly $220,000 of annual rent the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it.",
         "Because Santa Clarita has no local rent stabilization ordinance, the gap closes on turnover rather than through a capped annual increase. Seven units were vacant at the rent roll date, which means a portion of that repositioning is available to a buyer immediately rather than over a holding period."
       ],
       "location_title": "Walking Distance to Metrolink in Old Town Newhall",
@@ -478,14 +478,14 @@
       "valuation_narrative": [
         "The recommendation is built on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction.",
         "On a per unit basis the recommendation sits at the upper end of that closed range, and on income it does not. The one closed sale in the set carrying a confirmed cap rate traded at 5.42%, and the escrow half a mile away is at 5.31%. The recommended value prices this property in line with both while its gross rent multiplier stays below every income-supported comparable in the analysis.",
-        "Two things move this number more than the comparables do. The first is the rent gap: 23% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is expense underwriting. Repairs and management are carried at underwritten figures rather than the amounts on the owner's most recent operating summary, and a buyer who underwrites to those actuals will arrive at a lower net operating income. The sensitivity table shows that case explicitly.",
+        "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is how the vacancies are carried. Five vacant units, the manager unit and two units of pending status, eight of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management.",
         "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-        "Stabilized at market rent with utility bill-back in place, net operating income reaches $1,049,546. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+        "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
       ],
       "strategy": [
         {
           "title": "Lead With the Rent Gap, Not the Vacancy",
-          "copy": "The single most valuable fact about this property is that in-place rents sit roughly 23% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
+          "copy": "The single most valuable fact about this property is that the occupied units sit roughly 20% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
         }
       ],
       "buyer_profiles": [
@@ -503,7 +503,7 @@
         }
       ],
       "disclosures": [
-        "Operating figures are drawn from the supporting Marcus & Millichap model at its September 2, 2026 analysis date and from the owner's August 2026 operating summary. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case.",
+        "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries the 58 occupied units at their in-place rents and the remaining eight, being five vacancies, the manager unit and two units of pending status, at the $1,900 market asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the eight units are carried at the occupied average instead.",
         "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
         "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
       ],
@@ -1000,7 +1000,7 @@
             "Lead With the Rent Gap, Not the Vacancy"
           ],
           "strategy_copy": [
-            "The single most valuable fact about this property is that in-place rents sit roughly 23% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
+            "The single most valuable fact about this property is that the occupied units sit roughly 20% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
           ],
           "pull_quote": [
             "We are proactive marketers, not reactive."
@@ -1044,7 +1044,7 @@
           "highlights": [
             "66 apartment units on 2.14 acres, built in 1972.",
             "One floor plan throughout: every unit is a one bedroom, one bath of approximately 550 square feet.",
-            "In-place rents average $1,583 per month against a $1,950 market rent, a gap of roughly 23% across all 66 units.",
+            "The 58 occupied units average $1,584 per month against a $1,900 market rent, a gap of roughly 20%.",
             "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
             "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
             "Numbered covered carport parking and two on-site laundry rooms.",
@@ -1054,7 +1054,7 @@
           "overview": [
             "Newhall Terrace Apartments is a 66-unit apartment building at 24377 Newhall Avenue in Santa Clarita, built in 1972 on a 2.14 acre parcel and containing approximately 36,908 gross square feet across two stories.",
             "The property is a single floor plan asset. All 66 units are one bedroom, one bath homes of approximately 550 square feet, which makes the rent roll unusually simple to underwrite and unusually simple to manage: one unit type, one turn cost, one market rent to solve for.",
-            "Rents in place average $1,583 per month. The market rent carried in the analysis is $1,950. Applied across all 66 units, that gap is roughly $290,000 of annual scheduled rent that the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it.",
+            "The 58 occupied units average $1,584 per month. The market rent carried in the analysis is $1,900, which sits just under the average of the one-bedroom comparables in this submarket. Across those occupied units that gap is roughly $220,000 of annual rent the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it.",
             "Because Santa Clarita has no local rent stabilization ordinance, the gap closes on turnover rather than through a capped annual increase. Seven units were vacant at the rent roll date, which means a portion of that repositioning is available to a buyer immediately rather than over a holding period."
           ]
         },
@@ -1087,12 +1087,12 @@
           "valuation_narrative": [
             "The recommendation is built on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction.",
             "On a per unit basis the recommendation sits at the upper end of that closed range, and on income it does not. The one closed sale in the set carrying a confirmed cap rate traded at 5.42%, and the escrow half a mile away is at 5.31%. The recommended value prices this property in line with both while its gross rent multiplier stays below every income-supported comparable in the analysis.",
-            "Two things move this number more than the comparables do. The first is the rent gap: 23% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is expense underwriting. Repairs and management are carried at underwritten figures rather than the amounts on the owner's most recent operating summary, and a buyer who underwrites to those actuals will arrive at a lower net operating income. The sensitivity table shows that case explicitly.",
+            "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is how the vacancies are carried. Five vacant units, the manager unit and two units of pending status, eight of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management.",
             "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-            "Stabilized at market rent with utility bill-back in place, net operating income reaches $1,049,546. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+            "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
           ],
           "disclosures": [
-            "Operating figures are drawn from the supporting Marcus & Millichap model at its September 2, 2026 analysis date and from the owner's August 2026 operating summary. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case.",
+            "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries the 58 occupied units at their in-place rents and the remaining eight, being five vacancies, the manager unit and two units of pending status, at the $1,900 market asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the eight units are carried at the occupied average instead.",
             "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
             "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
           ]
@@ -1288,7 +1288,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "The single most valuable fact about this property is that in-place rents sit roughly 23% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
+          "text": "The single most valuable fact about this property is that the occupied units sit roughly 20% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
         },
         {
           "id": "marketing-quote",
@@ -1489,7 +1489,7 @@
             "financials:presentation"
           ],
           "framed_as": null,
-          "text": "In-place rents average $1,583 per month against a $1,950 market rent, a gap of roughly 23% across all 66 units."
+          "text": "The 58 occupied units average $1,584 per month against a $1,900 market rent, a gap of roughly 20%."
         },
         {
           "id": "highlight-4",
@@ -1564,7 +1564,7 @@
             "financials:decision_ledger"
           ],
           "framed_as": null,
-          "text": "Rents in place average $1,583 per month. The market rent carried in the analysis is $1,950. Applied across all 66 units, that gap is roughly $290,000 of annual scheduled rent that the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it."
+          "text": "The 58 occupied units average $1,584 per month. The market rent carried in the analysis is $1,900, which sits just under the average of the one-bedroom comparables in this submarket. Across those occupied units that gap is roughly $220,000 of annual rent the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it."
         },
         {
           "id": "overview-4",
@@ -1707,7 +1707,7 @@
             "pricing:risks"
           ],
           "framed_as": "what moves the number",
-          "text": "Two things move this number more than the comparables do. The first is the rent gap: 23% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is expense underwriting. Repairs and management are carried at underwritten figures rather than the amounts on the owner's most recent operating summary, and a buyer who underwrites to those actuals will arrive at a lower net operating income. The sensitivity table shows that case explicitly."
+          "text": "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is how the vacancies are carried. Five vacant units, the manager unit and two units of pending status, eight of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management."
         },
         {
           "id": "valuation-lihtc",
@@ -1726,7 +1726,7 @@
             "pricing:operations"
           ],
           "framed_as": "pro forma scenario, not current income",
-          "text": "Stabilized at market rent with utility bill-back in place, net operating income reaches $1,049,546. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+          "text": "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
         },
         {
           "id": "disclosure-1",
@@ -1736,7 +1736,7 @@
             "sources:model-1"
           ],
           "framed_as": null,
-          "text": "Operating figures are drawn from the supporting Marcus & Millichap model at its September 2, 2026 analysis date and from the owner's August 2026 operating summary. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case."
+          "text": "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries the 58 occupied units at their in-place rents and the remaining eight, being five vacancies, the manager unit and two units of pending status, at the $1,900 market asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the eight units are carried at the occupied average instead."
         },
         {
           "id": "disclosure-2",
@@ -1813,7 +1813,7 @@
             "Lead With the Rent Gap, Not the Vacancy"
           ],
           "strategy_copy": [
-            "The single most valuable fact about this property is that in-place rents sit roughly 23% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
+            "The single most valuable fact about this property is that the occupied units sit roughly 20% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
           ],
           "pull_quote": [
             "We are proactive marketers, not reactive."
@@ -1857,7 +1857,7 @@
           "highlights": [
             "66 apartment units on 2.14 acres, built in 1972.",
             "One floor plan throughout: every unit is a one bedroom, one bath of approximately 550 square feet.",
-            "In-place rents average $1,583 per month against a $1,950 market rent, a gap of roughly 23% across all 66 units.",
+            "The 58 occupied units average $1,584 per month against a $1,900 market rent, a gap of roughly 20%.",
             "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
             "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
             "Numbered covered carport parking and two on-site laundry rooms.",
@@ -1867,7 +1867,7 @@
           "overview": [
             "Newhall Terrace Apartments is a 66-unit apartment building at 24377 Newhall Avenue in Santa Clarita, built in 1972 on a 2.14 acre parcel and containing approximately 36,908 gross square feet across two stories.",
             "The property is a single floor plan asset. All 66 units are one bedroom, one bath homes of approximately 550 square feet, which makes the rent roll unusually simple to underwrite and unusually simple to manage: one unit type, one turn cost, one market rent to solve for.",
-            "Rents in place average $1,583 per month. The market rent carried in the analysis is $1,950. Applied across all 66 units, that gap is roughly $290,000 of annual scheduled rent that the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it.",
+            "The 58 occupied units average $1,584 per month. The market rent carried in the analysis is $1,900, which sits just under the average of the one-bedroom comparables in this submarket. Across those occupied units that gap is roughly $220,000 of annual rent the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it.",
             "Because Santa Clarita has no local rent stabilization ordinance, the gap closes on turnover rather than through a capped annual increase. Seven units were vacant at the rent roll date, which means a portion of that repositioning is available to a buyer immediately rather than over a holding period."
           ]
         },
@@ -1900,12 +1900,12 @@
           "valuation_narrative": [
             "The recommendation is built on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction.",
             "On a per unit basis the recommendation sits at the upper end of that closed range, and on income it does not. The one closed sale in the set carrying a confirmed cap rate traded at 5.42%, and the escrow half a mile away is at 5.31%. The recommended value prices this property in line with both while its gross rent multiplier stays below every income-supported comparable in the analysis.",
-            "Two things move this number more than the comparables do. The first is the rent gap: 23% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is expense underwriting. Repairs and management are carried at underwritten figures rather than the amounts on the owner's most recent operating summary, and a buyer who underwrites to those actuals will arrive at a lower net operating income. The sensitivity table shows that case explicitly.",
+            "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is how the vacancies are carried. Five vacant units, the manager unit and two units of pending status, eight of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management.",
             "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-            "Stabilized at market rent with utility bill-back in place, net operating income reaches $1,049,546. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+            "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
           ],
           "disclosures": [
-            "Operating figures are drawn from the supporting Marcus & Millichap model at its September 2, 2026 analysis date and from the owner's August 2026 operating summary. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case.",
+            "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries the 58 occupied units at their in-place rents and the remaining eight, being five vacancies, the manager unit and two units of pending status, at the $1,900 market asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the eight units are carried at the occupied average instead.",
             "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
             "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
           ]
@@ -2101,7 +2101,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "The single most valuable fact about this property is that in-place rents sit roughly 23% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
+          "text": "The single most valuable fact about this property is that the occupied units sit roughly 20% below where the one-bedroom market is. A buyer does not have to renovate, re-entitle, or reposition anything to capture that. They have to hold the asset and re-lease units as they turn. That is the cleanest story in this submarket and it is what the campaign leads with."
         },
         {
           "id": "marketing-quote",
@@ -2302,7 +2302,7 @@
             "financials:presentation"
           ],
           "framed_as": null,
-          "text": "In-place rents average $1,583 per month against a $1,950 market rent, a gap of roughly 23% across all 66 units."
+          "text": "The 58 occupied units average $1,584 per month against a $1,900 market rent, a gap of roughly 20%."
         },
         {
           "id": "highlight-4",
@@ -2377,7 +2377,7 @@
             "financials:decision_ledger"
           ],
           "framed_as": null,
-          "text": "Rents in place average $1,583 per month. The market rent carried in the analysis is $1,950. Applied across all 66 units, that gap is roughly $290,000 of annual scheduled rent that the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it."
+          "text": "The 58 occupied units average $1,584 per month. The market rent carried in the analysis is $1,900, which sits just under the average of the one-bedroom comparables in this submarket. Across those occupied units that gap is roughly $220,000 of annual rent the property is not currently collecting, and no entitlement, construction, or repositioning is required to reach it."
         },
         {
           "id": "overview-4",
@@ -2520,7 +2520,7 @@
             "pricing:risks"
           ],
           "framed_as": "what moves the number",
-          "text": "Two things move this number more than the comparables do. The first is the rent gap: 23% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is expense underwriting. Repairs and management are carried at underwritten figures rather than the amounts on the owner's most recent operating summary, and a buyer who underwrites to those actuals will arrive at a lower net operating income. The sensitivity table shows that case explicitly."
+          "text": "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle. The second is how the vacancies are carried. Five vacant units, the manager unit and two units of pending status, eight of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management."
         },
         {
           "id": "valuation-lihtc",
@@ -2539,7 +2539,7 @@
             "pricing:operations"
           ],
           "framed_as": "pro forma scenario, not current income",
-          "text": "Stabilized at market rent with utility bill-back in place, net operating income reaches $1,049,546. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+          "text": "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
         },
         {
           "id": "disclosure-1",
@@ -2549,7 +2549,7 @@
             "sources:model-1"
           ],
           "framed_as": null,
-          "text": "Operating figures are drawn from the supporting Marcus & Millichap model at its September 2, 2026 analysis date and from the owner's August 2026 operating summary. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case."
+          "text": "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries the 58 occupied units at their in-place rents and the remaining eight, being five vacancies, the manager unit and two units of pending status, at the $1,900 market asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the eight units are carried at the occupied average instead."
         },
         {
           "id": "disclosure-2",
@@ -2895,28 +2895,28 @@
     "deal_id": "24377-newhall-ave",
     "domains": {
       "identity": "f558c0be36555dcd12cbca75a46bddaa01a39c87ba34b0fcfc7c7f7cf0d02c4f",
-      "financial_inputs": "6075fbdc46edca2d55a3b7b42d62b61fdeca8b6916691571c2bf0d2f17320bef",
-      "pricing_decision": "f45ab1780116312bab48171d69ae566811687aa37e523dcaf0a2ea9095dc0dc1",
+      "financial_inputs": "60e178c28c7ea8c6b59715b4856f577ddbbf2eddfbec5fac78cb23873b3c91d0",
+      "pricing_decision": "c18c1884dbde05668492d70c6e6415b1e99fdbf6db12104e379564be9d21fe2e",
       "sale_comps": "ecc758df111d9e476f99cad3bcbc9d466f8d6d5c1aca73c20b8fdec63e0b21a3",
-      "rent_comps": "3a361bb3ca936cc6b0609013a0eeabb5279f8836e2e9c6959e3a4c200ae284fb",
-      "copy": "681b9a3e055db352422bea025b9790169d43b84fea942a63accfeff1eae121f2",
+      "rent_comps": "16b6fbcad5e90eb9a40c2ffef34f14b1840cf1c88d88aa56a3ecd2a779298e5c",
+      "copy": "36bdfb6ea9d923e9da144dbe3c89df229ea2a2c7134481ec2d7f714cc02a8b21",
       "media_selection": "2b7cbf01df785e8f89455c3e23789cf572be71c7177ccb66423025d1c2cc7898",
       "regulatory_conclusions": "fcdb6613ce1c5ffbaaf839ca8628b0e819aaa4cb02252508ccbe741d2dcd88fc"
     },
     "presentation_hashes": {
       "identity": "287e6776ed70c6689caa3ad7dc79e32513291f975498c92b4b59c6a358a6019d",
-      "financial_inputs": "fbdb4db1b70cce3c7630a081645ea8fb211eac4fac2d4d01b52b51934b37b179",
-      "pricing_decision": "3bae105a9b8a72d935c00de7b5f396753271b51b8a8d7521bace3692b8d99e65",
+      "financial_inputs": "f8e138f11e47317e351f2bba24b575dc57403f214b93d29a32cfb4a879c253bc",
+      "pricing_decision": "dfccd303128a09a080cde82f64b2529ac60a9ccd4b140bfe530b39ad4ca19b28",
       "sale_comps": "2343003daaec6d28872e008e837d7361966e2735bf398361b65df3a239601678",
       "rent_comps": "548da12ab2529c69d22b692a6824c8cb49248437a0522fa6477bea0086663532",
-      "copy": "78feb4cc6436308e7467cda169d27d78a021ac196859ba65eaddde5ced0af551",
+      "copy": "0463572ced5812b63338507c1fe788df2b9340170e272d8ac13c139dc57f19dd",
       "media_selection": "6151536bd8dc2f29b950c9a854efb9497ac981e0cad74a2b9681d0e3f8a1c963",
       "regulatory_conclusions": "d8ce992751cba4732d941b6428bbbc8d745f739fa0b543c531658b80a0a24139"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-08T20:48:52+00:00",
+    "generated": "2026-09-08T21:44:35+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
