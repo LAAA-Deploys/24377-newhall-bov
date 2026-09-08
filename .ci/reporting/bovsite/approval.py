@@ -67,6 +67,7 @@ APPROVERS = {
     "fniculete-creator": "Filip Niculete",
     "Loganward-07": "Logan Ward",
     "morganwetmore-prog": "Morgan Wetmore",
+    "Myk387": "Mike Palade",
 }
 
 #: The names, for membership checks and error messages. APPROVERS is keyed by
