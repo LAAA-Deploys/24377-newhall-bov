@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "24377-newhall-ave",
   "portfolio_id": null,
-  "package_version": "v17",
-  "approved_at": "2026-09-08T21:44:29.585533+00:00",
+  "package_version": "v18",
+  "approved_at": "2026-09-08T21:52:37.047379+00:00",
   "approver": "Logan Ward",
   "price": {
     "value": 13500000
@@ -34,10 +34,10 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "36bdfb6ea9d923e9da144dbe3c89df229ea2a2c7134481ec2d7f714cc02a8b21"
+      "content_sha256": "80b6a70938a0ca8a6d23100d143c54dabad4cc12f017541d971e3b7a58b5e6c5"
     },
     "financial_inputs": {
-      "content_sha256": "60e178c28c7ea8c6b59715b4856f577ddbbf2eddfbec5fac78cb23873b3c91d0"
+      "content_sha256": "6fcd46427be7fbf3c6c8d7d6151000f5c2df9fd735a5e4a2498e3ba2da866573"
     },
     "identity": {
       "content_sha256": "f558c0be36555dcd12cbca75a46bddaa01a39c87ba34b0fcfc7c7f7cf0d02c4f"
@@ -46,7 +46,7 @@
       "content_sha256": "2b7cbf01df785e8f89455c3e23789cf572be71c7177ccb66423025d1c2cc7898"
     },
     "pricing_decision": {
-      "content_sha256": "c18c1884dbde05668492d70c6e6415b1e99fdbf6db12104e379564be9d21fe2e"
+      "content_sha256": "aee944c0ded5175e73b13d05ba7fc6764050e3b576193d62e0f56c302a019b9c"
     },
     "regulatory_conclusions": {
       "content_sha256": "fcdb6613ce1c5ffbaaf839ca8628b0e819aaa4cb02252508ccbe741d2dcd88fc"
