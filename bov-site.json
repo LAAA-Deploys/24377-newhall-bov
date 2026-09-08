@@ -10,7 +10,7 @@
     "month_year": "September 2026",
     "cover_label": "Confidential Broker Opinion of Value",
     "noindex": true,
-    "hero": "images/subject-hero.png",
+    "hero": "images/subject-front.jpg",
     "hero_tall": null
   },
   "team": {
@@ -166,8 +166,8 @@
       "lot_acres": 2.138,
       "year_built": 1972,
       "renovated_year": null,
-      "parking": "On-site surface parking",
-      "hero": "images/subject-hero.png",
+      "parking": "Numbered covered carport parking",
+      "hero": "images/subject-front.jpg",
       "price": 13500000,
       "price_per_unit": 204545.45,
       "price_per_sf": 365.77,
@@ -441,7 +441,8 @@
         "In-place rents average $1,583 per month against a $1,950 market rent, a gap of roughly 23% across all 66 units.",
         "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
         "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
-        "On-site surface parking and on-site laundry facilities.",
+        "Numbered covered carport parking and two on-site laundry rooms.",
+        "Electrical service runs through Siemens panels, not the Federal Pacific or Zinsco equipment that burdens much of this vintage.",
         "Air conditioning and heating in every unit."
       ],
       "overview": [
@@ -458,7 +459,9 @@
       ],
       "physical_narrative": [
         "Two stories, 66 units, approximately 36,908 gross square feet on a 93,152 square foot lot. The Los Angeles County Assessor records the property under APN 2830-017-015 as a Multi-Family Residence built in 1972, and the unit count, year built, building area, and lot size in this analysis all tie to that record.",
-        "Improvements sit across garden-style wings with on-site surface parking and on-site laundry facilities. Every unit has air conditioning and heating.",
+        "Improvements sit across garden-style wings served by numbered covered carports along two interior runs, and by two on-site laundry rooms running Speed Queen commercial equipment. Every unit has air conditioning and heating.",
+        "Electrical service runs through Siemens panels.",
+        "That is worth stating plainly. On a Los Angeles County building of this vintage the first thing a buyer's inspector looks for is a Federal Pacific or Zinsco panel. Both are recognized fire hazards, both are awkward to insure around, and both normally end in a replacement credit off the purchase price. This property does not carry that problem.",
         "At 2.14 acres the parcel is generously sized for 66 units, roughly 31 units to the acre, with meaningful open and landscaped area rather than a building built to its lot lines.",
         "The site is a single legal parcel assembled from lots 29, 30, 31 and 32 of Tract 1059 together with the adjoining vacated street, held in fee simple. It fronts Newhall Avenue between 9th Street and Chestnut Street."
       ],
@@ -506,8 +509,28 @@
       ],
       "gallery": [
         {
-          "src": "images/subject-exterior-2.png",
+          "src": "images/subject-entry.jpg",
           "alt": "Subject Exterior"
+        },
+        {
+          "src": "images/subject-courtyard.jpg",
+          "alt": "Subject Exterior"
+        },
+        {
+          "src": "images/subject-parking-1.jpg",
+          "alt": "Subject Parking"
+        },
+        {
+          "src": "images/subject-parking-2.jpg",
+          "alt": "Subject Parking"
+        },
+        {
+          "src": "images/subject-laundry-1.jpg",
+          "alt": "Subject Amenity"
+        },
+        {
+          "src": "images/subject-laundry-2.jpg",
+          "alt": "Subject Amenity"
         }
       ],
       "maps": {
@@ -1024,7 +1047,8 @@
             "In-place rents average $1,583 per month against a $1,950 market rent, a gap of roughly 23% across all 66 units.",
             "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
             "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
-            "On-site surface parking and on-site laundry facilities.",
+            "Numbered covered carport parking and two on-site laundry rooms.",
+            "Electrical service runs through Siemens panels, not the Federal Pacific or Zinsco equipment that burdens much of this vintage.",
             "Air conditioning and heating in every unit."
           ],
           "overview": [
@@ -1047,7 +1071,9 @@
         "property_details": {
           "physical_narrative": [
             "Two stories, 66 units, approximately 36,908 gross square feet on a 93,152 square foot lot. The Los Angeles County Assessor records the property under APN 2830-017-015 as a Multi-Family Residence built in 1972, and the unit count, year built, building area, and lot size in this analysis all tie to that record.",
-            "Improvements sit across garden-style wings with on-site surface parking and on-site laundry facilities. Every unit has air conditioning and heating.",
+            "Improvements sit across garden-style wings served by numbered covered carports along two interior runs, and by two on-site laundry rooms running Speed Queen commercial equipment. Every unit has air conditioning and heating.",
+            "Electrical service runs through Siemens panels.",
+            "That is worth stating plainly. On a Los Angeles County building of this vintage the first thing a buyer's inspector looks for is a Federal Pacific or Zinsco panel. Both are recognized fire hazards, both are awkward to insure around, and both normally end in a replacement credit off the purchase price. This property does not carry that problem.",
             "At 2.14 acres the parcel is generously sized for 66 units, roughly 31 units to the acre, with meaningful open and landscaped area rather than a building built to its lot lines.",
             "The site is a single legal parcel assembled from lots 29, 30, 31 and 32 of Tract 1059 together with the adjoining vacated street, held in fee simple. It fronts Newhall Avenue between 9th Street and Chestnut Street."
           ]
@@ -1488,13 +1514,22 @@
           "claim_type": "verified_fact",
           "support_refs": [
             "deal:presentation.parking",
-            "sources:pm-listing-1"
+            "sources:site-visit-1"
           ],
           "framed_as": null,
-          "text": "On-site surface parking and on-site laundry facilities."
+          "text": "Numbered covered carport parking and two on-site laundry rooms."
         },
         {
           "id": "highlight-7",
+          "claim_type": "verified_fact",
+          "support_refs": [
+            "sources:site-visit-1"
+          ],
+          "framed_as": null,
+          "text": "Electrical service runs through Siemens panels, not the Federal Pacific or Zinsco equipment that burdens much of this vintage."
+        },
+        {
+          "id": "highlight-8",
           "claim_type": "verified_fact",
           "support_refs": [
             "sources:pm-listing-1"
@@ -1593,10 +1628,29 @@
           "claim_type": "verified_fact",
           "support_refs": [
             "deal:presentation.parking",
+            "sources:site-visit-1",
             "sources:pm-listing-1"
           ],
           "framed_as": null,
-          "text": "Improvements sit across garden-style wings with on-site surface parking and on-site laundry facilities. Every unit has air conditioning and heating."
+          "text": "Improvements sit across garden-style wings served by numbered covered carports along two interior runs, and by two on-site laundry rooms running Speed Queen commercial equipment. Every unit has air conditioning and heating."
+        },
+        {
+          "id": "physical-panels",
+          "claim_type": "verified_fact",
+          "support_refs": [
+            "sources:site-visit-1"
+          ],
+          "framed_as": null,
+          "text": "Electrical service runs through Siemens panels."
+        },
+        {
+          "id": "physical-panels-context",
+          "claim_type": "broker_opinion",
+          "support_refs": [
+            "sources:site-visit-1"
+          ],
+          "framed_as": "diligence context for a 1972 building",
+          "text": "That is worth stating plainly. On a Los Angeles County building of this vintage the first thing a buyer's inspector looks for is a Federal Pacific or Zinsco panel. Both are recognized fire hazards, both are awkward to insure around, and both normally end in a replacement credit off the purchase price. This property does not carry that problem."
         },
         {
           "id": "physical-3",
@@ -1806,7 +1860,8 @@
             "In-place rents average $1,583 per month against a $1,950 market rent, a gap of roughly 23% across all 66 units.",
             "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
             "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
-            "On-site surface parking and on-site laundry facilities.",
+            "Numbered covered carport parking and two on-site laundry rooms.",
+            "Electrical service runs through Siemens panels, not the Federal Pacific or Zinsco equipment that burdens much of this vintage.",
             "Air conditioning and heating in every unit."
           ],
           "overview": [
@@ -1829,7 +1884,9 @@
         "property_details": {
           "physical_narrative": [
             "Two stories, 66 units, approximately 36,908 gross square feet on a 93,152 square foot lot. The Los Angeles County Assessor records the property under APN 2830-017-015 as a Multi-Family Residence built in 1972, and the unit count, year built, building area, and lot size in this analysis all tie to that record.",
-            "Improvements sit across garden-style wings with on-site surface parking and on-site laundry facilities. Every unit has air conditioning and heating.",
+            "Improvements sit across garden-style wings served by numbered covered carports along two interior runs, and by two on-site laundry rooms running Speed Queen commercial equipment. Every unit has air conditioning and heating.",
+            "Electrical service runs through Siemens panels.",
+            "That is worth stating plainly. On a Los Angeles County building of this vintage the first thing a buyer's inspector looks for is a Federal Pacific or Zinsco panel. Both are recognized fire hazards, both are awkward to insure around, and both normally end in a replacement credit off the purchase price. This property does not carry that problem.",
             "At 2.14 acres the parcel is generously sized for 66 units, roughly 31 units to the acre, with meaningful open and landscaped area rather than a building built to its lot lines.",
             "The site is a single legal parcel assembled from lots 29, 30, 31 and 32 of Tract 1059 together with the adjoining vacated street, held in fee simple. It fronts Newhall Avenue between 9th Street and Chestnut Street."
           ]
@@ -2270,13 +2327,22 @@
           "claim_type": "verified_fact",
           "support_refs": [
             "deal:presentation.parking",
-            "sources:pm-listing-1"
+            "sources:site-visit-1"
           ],
           "framed_as": null,
-          "text": "On-site surface parking and on-site laundry facilities."
+          "text": "Numbered covered carport parking and two on-site laundry rooms."
         },
         {
           "id": "highlight-7",
+          "claim_type": "verified_fact",
+          "support_refs": [
+            "sources:site-visit-1"
+          ],
+          "framed_as": null,
+          "text": "Electrical service runs through Siemens panels, not the Federal Pacific or Zinsco equipment that burdens much of this vintage."
+        },
+        {
+          "id": "highlight-8",
           "claim_type": "verified_fact",
           "support_refs": [
             "sources:pm-listing-1"
@@ -2375,10 +2441,29 @@
           "claim_type": "verified_fact",
           "support_refs": [
             "deal:presentation.parking",
+            "sources:site-visit-1",
             "sources:pm-listing-1"
           ],
           "framed_as": null,
-          "text": "Improvements sit across garden-style wings with on-site surface parking and on-site laundry facilities. Every unit has air conditioning and heating."
+          "text": "Improvements sit across garden-style wings served by numbered covered carports along two interior runs, and by two on-site laundry rooms running Speed Queen commercial equipment. Every unit has air conditioning and heating."
+        },
+        {
+          "id": "physical-panels",
+          "claim_type": "verified_fact",
+          "support_refs": [
+            "sources:site-visit-1"
+          ],
+          "framed_as": null,
+          "text": "Electrical service runs through Siemens panels."
+        },
+        {
+          "id": "physical-panels-context",
+          "claim_type": "broker_opinion",
+          "support_refs": [
+            "sources:site-visit-1"
+          ],
+          "framed_as": "diligence context for a 1972 building",
+          "text": "That is worth stating plainly. On a Los Angeles County building of this vintage the first thing a buyer's inspector looks for is a Federal Pacific or Zinsco panel. Both are recognized fire hazards, both are awkward to insure around, and both normally end in a replacement credit off the purchase price. This property does not carry that problem."
         },
         {
           "id": "physical-3",
@@ -2511,10 +2596,15 @@
         "comp-24851-walnut",
         "comp-26087-bouquet",
         "comp-18046-beneda",
-        "subject-hero",
-        "subject-exterior-2"
+        "subject-front",
+        "subject-entry",
+        "subject-courtyard",
+        "subject-parking-1",
+        "subject-parking-2",
+        "subject-laundry-1",
+        "subject-laundry-2"
       ],
-      "hero": "subject-hero",
+      "hero": "subject-front",
       "items": [
         {
           "id": "comp-24411-newhall",
@@ -2621,27 +2711,92 @@
           "exception_id": null
         },
         {
-          "id": "subject-hero",
-          "sha256": "6406bb9a3e5646a478236e2af9824f80b1e0ab6ed57d294c639b9bcf4370ed78",
-          "phash": "dcc4b73b086286cf",
+          "id": "subject-front",
+          "sha256": "d4307a2e90a0e0f5a7ca7b8b5c01880fa6c645dc6c65ef0ef9f63c0bb1abe002",
+          "phash": "9b19944c4a9ae1ef",
           "category": "subject_exterior",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Two-story garden elevation on Newhall Avenue supplied by the deal owner as the subject cover photo; the shingle and stucco elevation and the street verge match the aerial footprint for APN 2830-017-015.",
-          "publication_basis": "glen_standing_rule",
+          "match_basis": "Street elevation along Newhall Avenue, photographed by Logan Ward on site 2026-09-08.",
+          "publication_basis": "team_owned",
           "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
           "required_credit": null,
           "exception_id": null
         },
         {
-          "id": "subject-exterior-2",
-          "sha256": "cd9d8b7f022462d0bbe42d6c80cd61234ec24db75cef92ec7f599381f839abec",
-          "phash": "9bbbc41762cc385a",
+          "id": "subject-entry",
+          "sha256": "9048dbabba18dcad3057e09e62f1a4608d7f320b63a41b6b9c6ff411cad0fa20",
+          "phash": "889c9f34b1593b6a",
           "category": "subject_exterior",
           "stock_or_illustrative": false,
           "property_match": "confirmed_human",
-          "match_basis": "Second elevation of the same building. The mature blue cedar and the shingle bay match the Newhall Terrace Apartments listing photograph retrieved independently from Apartment Finder for 24377 Newhall Ave.",
-          "publication_basis": "glen_standing_rule",
+          "match_basis": "Building entry with the Newhall Terrace 24377 signage legible, photographed by Logan Ward on site 2026-09-08.",
+          "publication_basis": "team_owned",
+          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
+          "required_credit": null,
+          "exception_id": null
+        },
+        {
+          "id": "subject-courtyard",
+          "sha256": "ef3d717f0e35b1b06f0ec9e5131e84627089e7f16fc8fb41dfb42979847af11e",
+          "phash": "9cf2d1d71234e58c",
+          "category": "subject_exterior",
+          "stock_or_illustrative": false,
+          "property_match": "confirmed_human",
+          "match_basis": "Interior courtyard elevation and stair, photographed by Logan Ward on site 2026-09-08.",
+          "publication_basis": "team_owned",
+          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
+          "required_credit": null,
+          "exception_id": null
+        },
+        {
+          "id": "subject-parking-1",
+          "sha256": "60f9827dcb6eb5a5c341b09d3d52e3edd8f2f031471e3eeb2b92a32e360da014",
+          "phash": "b4f4c6bb390bd2c0",
+          "category": "subject_parking",
+          "stock_or_illustrative": false,
+          "property_match": "confirmed_human",
+          "match_basis": "Numbered covered carports, photographed by Logan Ward on site 2026-09-08.",
+          "publication_basis": "team_owned",
+          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
+          "required_credit": null,
+          "exception_id": null
+        },
+        {
+          "id": "subject-parking-2",
+          "sha256": "28cb94a04238318b57e7492047ff1fce2cfb0158d6f7fb71b7c4f743b130bae7",
+          "phash": "f580dbf328254ada",
+          "category": "subject_parking",
+          "stock_or_illustrative": false,
+          "property_match": "confirmed_human",
+          "match_basis": "Second covered carport run, photographed by Logan Ward on site 2026-09-08.",
+          "publication_basis": "team_owned",
+          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
+          "required_credit": null,
+          "exception_id": null
+        },
+        {
+          "id": "subject-laundry-1",
+          "sha256": "ec0856fea926b34daa8fcd462a4caff439a666f5d67edda9bd484f486692cbcb",
+          "phash": "83c9cc9c7a4c0fbc",
+          "category": "subject_amenity",
+          "stock_or_illustrative": false,
+          "property_match": "confirmed_human",
+          "match_basis": "On-site laundry room with Speed Queen commercial equipment, photographed by Logan Ward on site 2026-09-08.",
+          "publication_basis": "team_owned",
+          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
+          "required_credit": null,
+          "exception_id": null
+        },
+        {
+          "id": "subject-laundry-2",
+          "sha256": "167930dfd04109b5afa94a0d6bca7a87ee41520eb5d4e8e209e6b121f407b0d1",
+          "phash": "9bf4bb867429518a",
+          "category": "subject_amenity",
+          "stock_or_illustrative": false,
+          "property_match": "confirmed_human",
+          "match_basis": "Second on-site laundry room, photographed by Logan Ward on site 2026-09-08.",
+          "publication_basis": "team_owned",
           "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
           "required_credit": null,
           "exception_id": null
@@ -2739,29 +2894,29 @@
   "approval_binding": {
     "deal_id": "24377-newhall-ave",
     "domains": {
-      "identity": "2f85c0c5887b8a785e962b207e850f54ec5e5289df7492f88fdcade06a7cf394",
+      "identity": "f558c0be36555dcd12cbca75a46bddaa01a39c87ba34b0fcfc7c7f7cf0d02c4f",
       "financial_inputs": "6075fbdc46edca2d55a3b7b42d62b61fdeca8b6916691571c2bf0d2f17320bef",
       "pricing_decision": "f45ab1780116312bab48171d69ae566811687aa37e523dcaf0a2ea9095dc0dc1",
       "sale_comps": "ecc758df111d9e476f99cad3bcbc9d466f8d6d5c1aca73c20b8fdec63e0b21a3",
       "rent_comps": "3a361bb3ca936cc6b0609013a0eeabb5279f8836e2e9c6959e3a4c200ae284fb",
-      "copy": "aefd0d1444fdce1caf76ea155ee6629cc2c7c072eb2e942d84a4a85fe4f21f72",
-      "media_selection": "c356966ff755844d287934f3b91b54ff52a120916847cc18994356d261c64ccd",
+      "copy": "681b9a3e055db352422bea025b9790169d43b84fea942a63accfeff1eae121f2",
+      "media_selection": "2b7cbf01df785e8f89455c3e23789cf572be71c7177ccb66423025d1c2cc7898",
       "regulatory_conclusions": "fcdb6613ce1c5ffbaaf839ca8628b0e819aaa4cb02252508ccbe741d2dcd88fc"
     },
     "presentation_hashes": {
-      "identity": "956e7cd0a9f63fd43447801ac2fc7ac232538e58b3b1cdf95826e2cc01208518",
+      "identity": "287e6776ed70c6689caa3ad7dc79e32513291f975498c92b4b59c6a358a6019d",
       "financial_inputs": "fbdb4db1b70cce3c7630a081645ea8fb211eac4fac2d4d01b52b51934b37b179",
       "pricing_decision": "3bae105a9b8a72d935c00de7b5f396753271b51b8a8d7521bace3692b8d99e65",
       "sale_comps": "2343003daaec6d28872e008e837d7361966e2735bf398361b65df3a239601678",
       "rent_comps": "548da12ab2529c69d22b692a6824c8cb49248437a0522fa6477bea0086663532",
-      "copy": "f328473e14feff2b7b44a200ad0f67b5d881edc0ed07745eae28bce0871b5234",
-      "media_selection": "e3e18a9c15ec44094b83eac3d6cd2a3f980a6aeef43deb33561273cab74ad357",
+      "copy": "78feb4cc6436308e7467cda169d27d78a021ac196859ba65eaddde5ced0af551",
+      "media_selection": "6151536bd8dc2f29b950c9a854efb9497ac981e0cad74a2b9681d0e3f8a1c963",
       "regulatory_conclusions": "d8ce992751cba4732d941b6428bbbc8d745f739fa0b543c531658b80a0a24139"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-04T22:55:49+00:00",
+    "generated": "2026-09-08T20:48:52+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

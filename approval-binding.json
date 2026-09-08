@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "24377-newhall-ave",
   "portfolio_id": null,
-  "package_version": "v12",
-  "approved_at": "2026-09-04T22:56:46.698714+00:00",
+  "package_version": "v14",
+  "approved_at": "2026-09-08T20:48:47.138056+00:00",
   "approver": "Logan Ward",
   "price": {
     "value": 13500000
@@ -14,6 +14,7 @@
     "exc-central-ac-claim",
     "exc-comp-gba-suspect",
     "exc-comp-photo-watermarks",
+    "exc-electrical-panels",
     "exc-expense-basis",
     "exc-hero-source",
     "exc-insurance-basis",
@@ -31,16 +32,16 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "aefd0d1444fdce1caf76ea155ee6629cc2c7c072eb2e942d84a4a85fe4f21f72"
+      "content_sha256": "681b9a3e055db352422bea025b9790169d43b84fea942a63accfeff1eae121f2"
     },
     "financial_inputs": {
       "content_sha256": "6075fbdc46edca2d55a3b7b42d62b61fdeca8b6916691571c2bf0d2f17320bef"
     },
     "identity": {
-      "content_sha256": "2f85c0c5887b8a785e962b207e850f54ec5e5289df7492f88fdcade06a7cf394"
+      "content_sha256": "f558c0be36555dcd12cbca75a46bddaa01a39c87ba34b0fcfc7c7f7cf0d02c4f"
     },
     "media_selection": {
-      "content_sha256": "c356966ff755844d287934f3b91b54ff52a120916847cc18994356d261c64ccd"
+      "content_sha256": "2b7cbf01df785e8f89455c3e23789cf572be71c7177ccb66423025d1c2cc7898"
     },
     "pricing_decision": {
       "content_sha256": "f45ab1780116312bab48171d69ae566811687aa37e523dcaf0a2ea9095dc0dc1"
