@@ -68,6 +68,7 @@ APPROVERS = {
     "Loganward-07": "Logan Ward",
     "morganwetmore-prog": "Morgan Wetmore",
     "Myk387": "Mike Palade",
+    "tdang1234": "Tony Dang",
 }
 
 #: The names, for membership checks and error messages. APPROVERS is keyed by

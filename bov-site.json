@@ -2,6 +2,7 @@
   "schema_version": 3,
   "document_type": "bov",
   "site_mode": "single",
+  "documents": [],
   "meta": {
     "domain": "24377newhallave.laaa.com",
     "client": "Ownership of 24377 Newhall Avenue",
@@ -168,46 +169,46 @@
       "renovated_year": null,
       "parking": "Numbered covered carport parking",
       "hero": "images/subject-front.jpg",
-      "price": 13500000,
-      "price_per_unit": 204545.45,
-      "price_per_sf": 365.77,
-      "value_range": "$12,800,000 to $13,500,000",
+      "price": 11500000,
+      "price_per_unit": 174242.42,
+      "price_per_sf": 311.59,
+      "value_range": "$11,000,000 to $11,500,000",
       "opinion_of_value": [
         {
           "label": "Suggested list price",
-          "price": 13500000,
-          "price_per_unit": 204545.45454545456,
-          "price_per_sf": 365.774357862794,
+          "price": 11500000,
+          "price_per_unit": 174242.42424242425,
+          "price_per_sf": 311.585564105343,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 10.504201680672269,
-          "grm_market": 8.971291866028707,
-          "cap_current": 5.53156888888889,
-          "cap_market": 7.392808888888888
+          "grm_current": 8.948023653906008,
+          "grm_market": 7.64221158958001,
+          "cap_current": 6.016358608695652,
+          "cap_market": 8.224291826086958
         },
         {
           "label": "Midpoint",
-          "price": 13150000.0,
-          "price_per_unit": 199242.42424242425,
-          "price_per_sf": 356.29131895524006,
+          "price": 11250000.0,
+          "price_per_unit": 170454.54545454544,
+          "price_per_sf": 304.81196488566167,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 10.231870525988173,
-          "grm_market": 8.738702817650186,
-          "cap_current": 5.710366292775666,
-          "cap_market": 7.621145
+          "grm_current": 8.753501400560225,
+          "grm_market": 7.476076555023924,
+          "cap_current": 6.176413355555555,
+          "cap_market": 8.433411755555555
         },
         {
           "label": "Range bottom",
-          "price": 12800000,
-          "price_per_unit": 193939.39393939395,
-          "price_per_sf": 346.80828004768614,
+          "price": 11000000,
+          "price_per_unit": 166666.66666666666,
+          "price_per_sf": 298.0383656659803,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 9.959539371304077,
-          "grm_market": 8.506113769271664,
-          "cap_current": 5.8989416796875,
-          "cap_market": 7.861968242187499
+          "grm_current": 8.55897914721444,
+          "grm_market": 7.309941520467836,
+          "cap_current": 6.343743318181819,
+          "cap_market": 8.652037136363637
         }
       ],
       "scheduled_rent": [
@@ -222,23 +223,23 @@
         1083.3333333333333,
         5373.333333333333
       ],
-      "grm_current": 10.504201680672269,
-      "grm_market": 8.971291866028707,
-      "cap_current": 5.53156888888889,
-      "cap_market": 7.392808888888888,
+      "grm_current": 8.948023653906008,
+      "grm_market": 7.64221158958001,
+      "cap_current": 6.016358608695652,
+      "cap_market": 8.224291826086958,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 746761.8,
-      "noi_market": 998029.2,
+      "noi_current": 691881.24,
+      "noi_market": 945793.56,
       "tax_rate": 1.186105,
       "tax_anchor": {
-        "ad_valorem": 160124.17,
-        "flat_assessments": 28875.83,
+        "ad_valorem": 136402.0,
+        "flat_assessments": 45013.0,
         "expense_line": "Taxes"
       },
-      "expense_total": 512882.2,
-      "expense_per_unit": 7770.942424242425,
-      "expense_per_sf": 13.896233878833858,
+      "expense_total": 567762.76,
+      "expense_per_unit": 8602.46606060606,
+      "expense_per_sf": 15.383189552400564,
       "unit_mix": [
         {
           "count": 66,
@@ -260,12 +261,12 @@
           38556,
           45144
         ],
-        "vacancy_pct": 2.9699584039439224,
+        "vacancy_pct": 3.0,
         "vacancy_only": [
           38556,
           45144
         ],
-        "vacancy_only_pct": 2.9699584039439224,
+        "vacancy_only_pct": 3.0,
         "credit_loss": [
           0,
           0
@@ -276,53 +277,53 @@
           1524136
         ],
         "expenses": [
-          512882.2,
-          526106.8
+          567762.76,
+          578342.44
         ],
         "expense_ratio": [
-          40.716440518114645,
-          34.518363190686394
+          45.07327149575595,
+          37.945592781746505
         ],
         "noi": [
-          746761.8,
-          998029.2
+          691881.24,
+          945793.56
         ],
         "loan_payments": [
           0.0,
           0.0
         ],
         "pretax_cf": [
-          746761.8,
-          998029.2
+          691881.24,
+          945793.56
         ],
         "pretax_cf_pct": [
-          5.53156888888889,
-          7.392808888888888
+          6.016358608695652,
+          8.224291826086958
         ],
         "principal_reduction": [
           0.0,
           0.0
         ],
         "total_return": [
-          746761.8,
-          998029.2
+          691881.24,
+          945793.56
         ],
         "total_return_pct": [
-          5.53156888888889,
-          7.392808888888888
+          6.016358608695652,
+          8.224291826086958
         ]
       },
       "expense_lines": [
         [
           "General Administrative",
-          2000,
-          2000,
+          6600,
+          6600,
           "4"
         ],
         [
           "Insurance",
-          27000,
-          27000,
+          55362,
+          55362,
           "5"
         ],
         [
@@ -333,14 +334,14 @@
         ],
         [
           "Management Fee",
-          62982.2,
-          62982.2,
+          50385.76,
+          50385.76,
           "7"
         ],
         [
           "Manager",
-          22800,
-          22800,
+          60000,
+          60000,
           "8"
         ],
         [
@@ -350,82 +351,92 @@
           "9"
         ],
         [
-          "Taxes",
-          189000,
-          189000,
+          "Reserves",
+          9900,
+          9900,
           "10"
+        ],
+        [
+          "Taxes",
+          181415,
+          181415,
+          "11"
         ],
         [
           "Trash",
           20000,
           20000,
-          "11"
+          "12"
         ],
         [
           "Utilities",
-          120000,
-          120000,
-          "12"
+          115000,
+          115000,
+          "13"
         ],
         [
           "Underwriting Expense Adjustment",
           0.0,
-          13224.600000000035,
-          "13"
+          10579.679999999935,
+          "14"
         ]
       ],
       "expense_notes": {
         "4": [
           "General Administrative",
-          "$2,000 for accounting, entity, and filing costs."
+          "Cost for accountant, taxes, LLC, etc."
         ],
         "5": [
           "Insurance",
-          "$27,000 per the owner's August 2026 operating summary."
+          "Underwritten at $1.50 per square foot of building area, above the seller's reported $27,000."
         ],
         "6": [
           "Landscaping",
-          "$13,000 per the owner's August 2026 operating summary."
+          "Seller provided financials."
         ],
         "7": [
           "Management Fee",
-          "Third-party management at 5% of effective gross income, or $62,982."
+          "Third party management fee at 4% of effective gross income (lenders use this in underwriting)."
         ],
         "8": [
           "Manager",
-          "$22,800 for the resident manager, carried as an expense with the manager unit held at the market rent."
+          "On-site manager. Rental income for the manager unit is backed out through the payroll expense."
         ],
         "9": [
           "Repairs Maintenance",
-          "Underwritten at $850 per unit per year, or $56,100."
+          "Acceptable $850 per unit per year for repairs and maintenance."
         ],
         "10": [
-          "Taxes",
-          "$189,000, reflecting reassessment at the recommended value rather than the seller's current $140,000 bill."
+          "Reserves",
+          "Replacement reserves at $150 per unit per year."
         ],
         "11": [
-          "Trash",
-          "$20,000 per the owner's August 2026 operating summary."
+          "Taxes",
+          "$136,402 of ad valorem at 1.1861% of the purchase price, the Los Angeles County rate for TRA 00223, being the 1% general levy plus voted indebtedness, per the 2025-26 Auditor-Controller rate table. Plus $45,013 of direct assessments per the 2025-26 Los Angeles County tax bill, which are flat charges that do not change with the sale price."
         ],
         "12": [
-          "Utilities",
-          "$120,000 per the owner's August 2026 operating summary."
+          "Trash",
+          "Seller provided estimated financials."
         ],
         "13": [
+          "Utilities",
+          "Seller provided estimated financials."
+        ],
+        "14": [
           "Underwriting Expense Adjustment",
           "Aggregate difference between classified T12 expense lines and the modeled current and pro forma operating expense totals."
         ],
         "2": [
           "Scheduled Gross Income",
-          "Scheduled rent of $1,285,200. Sixty units are leased, 58 at their in-place rents and two at the $1,900 market rent. The five vacancies and the manager unit are carried at the same $1,900 asking rent."
+          "Current rents per the seller's June 2026 rent roll. Vacant, TBD, and manager units are carried at the $1,900 market rent."
         ],
         "3": [
           "Vacancy Reserve",
-          "Underwritten at 3% of scheduled rent, the turnover allowance lenders apply to stabilized apartments in this market."
+          "Lenders underwrite a vacancy of about 3% for unit turnover."
         ],
         "1": [
           "Additional Income",
-          "Laundry income of $13,000 per the owner's August 2026 operating summary."
+          "Seller provided financials."
         ]
       },
       "income_notes": {
@@ -438,7 +449,7 @@
       "highlights": [
         "66 apartment units on 2.14 acres, built in 1972.",
         "One floor plan throughout: every unit is a one bedroom, one bath of approximately 550 square feet.",
-        "Two units are already leased at the $1,900 market rent. The other 58 average $1,584, a gap of roughly 20%.",
+        "In-place rents on the occupied units average $1,584 against a $1,900 market rent, a gap of roughly 20%. The building's own rent roll already reaches $1,880.",
         "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
         "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
         "Numbered covered carport parking and two on-site laundry rooms.",
@@ -476,11 +487,11 @@
         "Nearby leased and asking rents are shown as a market sensitivity for the one bedroom floor plan and are not represented as achieved subject rents."
       ],
       "valuation_narrative": [
-        "The recommendation is built on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction.",
-        "On a per unit basis the recommendation sits at the upper end of that closed range, and on income it does not. The one closed sale in the set carrying a confirmed cap rate traded at 5.42%, and the escrow half a mile away is at 5.31%. The recommended value prices this property in line with both while its gross rent multiplier stays below every income-supported comparable in the analysis.",
-        "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle, and two units already leased at $1,900 show the number is reachable here rather than only in the comp set. The second is how the vacancies are carried. Five vacant units and the manager unit, six of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management.",
+        "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
+        "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis.",
+        "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
         "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-        "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+        "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
       ],
       "strategy": [
         {
@@ -503,8 +514,8 @@
         }
       ],
       "disclosures": [
-        "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries 60 leased units, 58 at their in-place rents and two at the $1,900 market rent, with the five vacancies and the manager unit at that same $1,900 asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the six unleased units are carried at the leased average instead.",
-        "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
+        "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead.",
+        "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
         "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
       ],
       "gallery": [
@@ -615,19 +626,20 @@
           "units": 65,
           "year_built": 1977,
           "building_sf": 45908,
-          "lot_sf": 94525,
+          "lot_sf": 94412,
           "date": "2026-06-23",
           "days_on_market": null,
           "price_per_unit": 182692.31,
           "price_per_sf": 258.67,
-          "price_per_land_sf": 125.62814070351759,
+          "price_per_land_sf": 125.77850273270347,
           "grm": null,
           "cap_rate": null,
           "image": "comp-24838-newhall.png",
           "restatement": null,
+          "document": null,
           "summary": "Same street, half a mile away, and the only closed sale at comparable scale.",
           "relevance": "65 units against 66, the closest scale match in the set.; Built 1977 against 1972.",
-          "considerations": "Allocated price within a four-property portfolio sale that closed as one transaction on June 23, 2026.",
+          "considerations": "Allocated price within a four-property portfolio sale that closed as one transaction on June 23, 2026.; Carries its own lender loan of $8,906,250 at 75% of the allocated price, so the allocation was underwritten individually rather than assigned.",
           "map_ref": 1,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.384789,-118.536387&query_place_id=ChIJG8gF_fSGwoARPWgcEoM-3F4"
         },
@@ -637,20 +649,21 @@
           "price": 6900000,
           "units": 33,
           "year_built": 1977,
-          "building_sf": null,
-          "lot_sf": 48186,
+          "building_sf": 26757,
+          "lot_sf": 48579,
           "date": "2026-06-23",
           "days_on_market": null,
           "price_per_unit": 209090.91,
-          "price_per_sf": null,
-          "price_per_land_sf": 143.19511891420746,
+          "price_per_sf": 257.88,
+          "price_per_land_sf": 142.03668251713702,
           "grm": null,
           "cap_rate": null,
           "image": "comp-24851-walnut.png",
           "restatement": null,
-          "summary": "Close by and recent, but half the scale, an allocated portfolio price, and a reported building area that does not support a price per square foot.",
-          "relevance": "33 units, half the subject's scale.; Built 1977 against 1972.; Reported building area of 56,254 SF is inconsistent with the other three assets in the same portfolio and is withheld rather than published.",
-          "considerations": "Allocated price within a four-property portfolio sale that closed as one transaction on June 23, 2026.",
+          "document": null,
+          "summary": "Close by, recent, and the second largest asset in the June 2026 portfolio, with a building area confirmed against the assessor.",
+          "relevance": "33 units, half the subject's scale.; Built 1977 against 1972.; 811 SF per unit against the subject's approximately 559.",
+          "considerations": "Allocated price within a four-property portfolio sale that closed as one transaction on June 23, 2026.; Carries its own lender loan of $5,175,000 at 75% of the allocated price, so the allocation was underwritten individually rather than assigned.",
           "map_ref": 2,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.3859214,-118.5352463&query_place_id=ChIJ6ZjjrvWGwoARVertEe7IcxU"
         },
@@ -661,19 +674,20 @@
           "units": 28,
           "year_built": 1979,
           "building_sf": 22494,
-          "lot_sf": 41382,
+          "lot_sf": 41064,
           "date": "2026-06-23",
           "days_on_market": null,
           "price_per_unit": 176607.14,
           "price_per_sf": 219.84,
-          "price_per_land_sf": 119.49639940070563,
+          "price_per_land_sf": 120.42178063510617,
           "grm": null,
           "cap_rate": null,
           "image": "comp-26087-bouquet.png",
           "restatement": null,
+          "document": null,
           "summary": "Same transaction and recent, but 2.7 miles away in a different submarket and well below the subject's scale.",
           "relevance": "28 units.; Built 1979 against 1972.",
-          "considerations": "Allocated price within a four-property portfolio sale that closed as one transaction on June 23, 2026.; Valencia submarket rather than Newhall.",
+          "considerations": "Allocated price within a four-property portfolio sale that closed as one transaction on June 23, 2026.; Carries its own lender loan of $3,708,750 at 75% of the allocated price, so the allocation was underwritten individually rather than assigned.; Valencia submarket rather than Newhall.",
           "map_ref": 3,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.4173234,-118.5424733&query_place_id=ChIJlzdh0A2HwoARjmbSvFwfuC4"
         },
@@ -684,19 +698,20 @@
           "units": 25,
           "year_built": 1979,
           "building_sf": 22668,
-          "lot_sf": 72778,
+          "lot_sf": 71365,
           "date": "2026-06-23",
           "days_on_market": null,
           "price_per_unit": 191200.0,
           "price_per_sf": 210.87,
-          "price_per_land_sf": 65.67918876583583,
+          "price_per_land_sf": 66.97961185455055,
           "grm": null,
           "cap_rate": null,
           "image": "comp-18046-beneda.png",
           "restatement": null,
+          "document": null,
           "summary": "Same transaction, but 5.5 miles away in a separate submarket and a third of the subject's scale.",
           "relevance": "25 units.; Built 1979 against 1972.",
-          "considerations": "Allocated price within a four-property portfolio sale that closed as one transaction on June 23, 2026.; Canyon Country submarket.",
+          "considerations": "Allocated price within a four-property portfolio sale that closed as one transaction on June 23, 2026.; Carries its own lender loan of $3,585,000 at 75% of the allocated price, so the allocation was underwritten individually rather than assigned.; Canyon Country submarket.",
           "map_ref": 4,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.4232757,-118.4531212&query_place_id=ChIJd3OWw_eIwoARmPshUR1Kyhk"
         },
@@ -717,6 +732,7 @@
           "cap_rate": null,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "Same street, half a mile away, and a clean single-asset trade with no portfolio allocation to unwind.",
           "relevance": "23 units at an average 607 SF, close to the subject's unit size.; Built 1946, twenty-six years older than the subject.",
           "considerations": "Individual arm's-length sale, not part of a portfolio.",
@@ -740,7 +756,8 @@
           "cap_rate": 5.42,
           "image": "comp-24966-walnut.png",
           "restatement": null,
-          "summary": "The only closed sale in the set carrying a confirmed cap rate and gross rent multiplier, which is what anchors the subject's income metrics.",
+          "document": null,
+          "summary": "The only closed sale in the set carrying a confirmed cap rate and gross rent multiplier, weighted below the larger Newhall trades because it is a nine-unit building.",
           "relevance": "9 units, a fraction of the subject's scale.; Built 1962.; Reported building area of 23,550 SF is inconsistent with a nine-unit building on a 14,810 SF lot and is withheld rather than published.",
           "considerations": "Sold with significant deferred maintenance, which depressed the price against a stabilized asset.",
           "map_ref": 6,
@@ -763,6 +780,7 @@
           "cap_rate": null,
           "image": "comp-24411-newhall.png",
           "restatement": null,
+          "document": null,
           "summary": "Not an arm's-length market comparison. Weighted to a nominal 1% so the sale stays visible without moving the conclusion.",
           "relevance": "30 units.; Built 1976, adjacent to the subject.",
           "considerations": "Not an arm's-length market transaction. The seller sold to a school he donates to, at a price well above the closed market range, and the sale is shown for completeness rather than as market evidence.",
@@ -786,6 +804,7 @@
           "cap_rate": null,
           "image": "comp-22710-8th.png",
           "restatement": null,
+          "document": null,
           "summary": "Not an arm's-length market comparison. Weighted to a nominal 1% so the sale stays visible without moving the conclusion.",
           "relevance": "22 units at an average 910 SF, larger than the subject's units.; Built 1985, the newest asset in the set.",
           "considerations": "Not an arm's-length market transaction. The seller sold to a school he donates to, at a price well above the closed market range, and the sale is shown for completeness rather than as market evidence.",
@@ -811,6 +830,7 @@
           "cap_rate": 5.489999999999999,
           "image": "comp-24802-walnut.png",
           "restatement": null,
+          "document": null,
           "summary": "Live pricing evidence half a mile away, weighted lightly because it is a seven-unit trade that has not closed.",
           "relevance": "7 units at an average 608 SF, close to the subject's unit size.; Built 1978.",
           "considerations": "In escrow at $1,665,000 with a 2026-10-12 expected close. Price is the contract price recorded by the listing team, not the asking price.",
@@ -834,6 +854,7 @@
           "cap_rate": null,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "Current escrow pricing a fifth of a mile away, weighted lightly because it is small and has not closed.",
           "relevance": "12 units.; Built 1984.",
           "considerations": "In escrow at $205,000 per unit, not yet closed.",
@@ -857,6 +878,7 @@
           "cap_rate": null,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "Active competition and a ceiling reference only. Weighted to a nominal 1%; eleven months of unsold marketing at $350,000 per unit is evidence of where the market stops, not of value.",
           "relevance": "8 units.; Built 1979.",
           "considerations": "Asking price only. On the market eleven months without a sale, which reads as an unmet ask rather than a supported value.",
@@ -1044,7 +1066,7 @@
           "highlights": [
             "66 apartment units on 2.14 acres, built in 1972.",
             "One floor plan throughout: every unit is a one bedroom, one bath of approximately 550 square feet.",
-            "Two units are already leased at the $1,900 market rent. The other 58 average $1,584, a gap of roughly 20%.",
+            "In-place rents on the occupied units average $1,584 against a $1,900 market rent, a gap of roughly 20%. The building's own rent roll already reaches $1,880.",
             "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
             "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
             "Numbered covered carport parking and two on-site laundry rooms.",
@@ -1085,15 +1107,15 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommendation is built on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction.",
-            "On a per unit basis the recommendation sits at the upper end of that closed range, and on income it does not. The one closed sale in the set carrying a confirmed cap rate traded at 5.42%, and the escrow half a mile away is at 5.31%. The recommended value prices this property in line with both while its gross rent multiplier stays below every income-supported comparable in the analysis.",
-            "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle, and two units already leased at $1,900 show the number is reachable here rather than only in the comp set. The second is how the vacancies are carried. Five vacant units and the manager unit, six of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management.",
+            "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
+            "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis.",
+            "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
             "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-            "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+            "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
           ],
           "disclosures": [
-            "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries 60 leased units, 58 at their in-place rents and two at the $1,900 market rent, with the five vacancies and the manager unit at that same $1,900 asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the six unleased units are carried at the leased average instead.",
-            "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
+            "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead.",
+            "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
             "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
           ]
         }
@@ -1489,7 +1511,7 @@
             "financials:presentation"
           ],
           "framed_as": null,
-          "text": "Two units are already leased at the $1,900 market rent. The other 58 average $1,584, a gap of roughly 20%."
+          "text": "In-place rents on the occupied units average $1,584 against a $1,900 market rent, a gap of roughly 20%. The building's own rent roll already reaches $1,880."
         },
         {
           "id": "highlight-4",
@@ -1687,7 +1709,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "The recommendation is built on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction."
+          "text": "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason."
         },
         {
           "id": "valuation-2",
@@ -1697,7 +1719,7 @@
             "comps-sale:sale-24966-walnut"
           ],
           "framed_as": "broker opinion of value",
-          "text": "On a per unit basis the recommendation sits at the upper end of that closed range, and on income it does not. The one closed sale in the set carrying a confirmed cap rate traded at 5.42%, and the escrow half a mile away is at 5.31%. The recommended value prices this property in line with both while its gross rent multiplier stays below every income-supported comparable in the analysis."
+          "text": "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis."
         },
         {
           "id": "valuation-3",
@@ -1707,7 +1729,7 @@
             "pricing:risks"
           ],
           "framed_as": "what moves the number",
-          "text": "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle, and two units already leased at $1,900 show the number is reachable here rather than only in the comp set. The second is how the vacancies are carried. Five vacant units and the manager unit, six of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management."
+          "text": "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover."
         },
         {
           "id": "valuation-lihtc",
@@ -1726,7 +1748,7 @@
             "pricing:operations"
           ],
           "framed_as": "pro forma scenario, not current income",
-          "text": "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+          "text": "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
         },
         {
           "id": "disclosure-1",
@@ -1736,7 +1758,7 @@
             "sources:model-1"
           ],
           "framed_as": null,
-          "text": "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries 60 leased units, 58 at their in-place rents and two at the $1,900 market rent, with the five vacancies and the manager unit at that same $1,900 asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the six unleased units are carried at the leased average instead."
+          "text": "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead."
         },
         {
           "id": "disclosure-2",
@@ -1746,7 +1768,7 @@
             "sources:costar-sale-1"
           ],
           "framed_as": null,
-          "text": "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only."
+          "text": "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only."
         },
         {
           "id": "disclosure-3",
@@ -1857,7 +1879,7 @@
           "highlights": [
             "66 apartment units on 2.14 acres, built in 1972.",
             "One floor plan throughout: every unit is a one bedroom, one bath of approximately 550 square feet.",
-            "Two units are already leased at the $1,900 market rent. The other 58 average $1,584, a gap of roughly 20%.",
+            "In-place rents on the occupied units average $1,584 against a $1,900 market rent, a gap of roughly 20%. The building's own rent roll already reaches $1,880.",
             "No local rent control. The City of Santa Clarita has no rent stabilization ordinance, so the property is governed by the statewide Tenant Protection Act.",
             "Newhall Metrolink Station is a six minute walk, three tenths of a mile from the property.",
             "Numbered covered carport parking and two on-site laundry rooms.",
@@ -1898,15 +1920,15 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommendation is built on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction.",
-            "On a per unit basis the recommendation sits at the upper end of that closed range, and on income it does not. The one closed sale in the set carrying a confirmed cap rate traded at 5.42%, and the escrow half a mile away is at 5.31%. The recommended value prices this property in line with both while its gross rent multiplier stays below every income-supported comparable in the analysis.",
-            "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle, and two units already leased at $1,900 show the number is reachable here rather than only in the comp set. The second is how the vacancies are carried. Five vacant units and the manager unit, six of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management.",
+            "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
+            "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis.",
+            "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
             "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-            "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+            "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
           ],
           "disclosures": [
-            "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries 60 leased units, 58 at their in-place rents and two at the $1,900 market rent, with the five vacancies and the manager unit at that same $1,900 asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the six unleased units are carried at the leased average instead.",
-            "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
+            "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead.",
+            "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
             "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
           ]
         }
@@ -2302,7 +2324,7 @@
             "financials:presentation"
           ],
           "framed_as": null,
-          "text": "Two units are already leased at the $1,900 market rent. The other 58 average $1,584, a gap of roughly 20%."
+          "text": "In-place rents on the occupied units average $1,584 against a $1,900 market rent, a gap of roughly 20%. The building's own rent roll already reaches $1,880."
         },
         {
           "id": "highlight-4",
@@ -2500,7 +2522,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "The recommendation is built on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction."
+          "text": "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason."
         },
         {
           "id": "valuation-2",
@@ -2510,7 +2532,7 @@
             "comps-sale:sale-24966-walnut"
           ],
           "framed_as": "broker opinion of value",
-          "text": "On a per unit basis the recommendation sits at the upper end of that closed range, and on income it does not. The one closed sale in the set carrying a confirmed cap rate traded at 5.42%, and the escrow half a mile away is at 5.31%. The recommended value prices this property in line with both while its gross rent multiplier stays below every income-supported comparable in the analysis."
+          "text": "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis."
         },
         {
           "id": "valuation-3",
@@ -2520,7 +2542,7 @@
             "pricing:risks"
           ],
           "framed_as": "what moves the number",
-          "text": "Two things move this number more than the comparables do. The first is the rent gap: 20% of upside on a building with no local rent control is what justifies pricing at the top of the per unit range rather than the middle, and two units already leased at $1,900 show the number is reachable here rather than only in the comp set. The second is how the vacancies are carried. Five vacant units and the manager unit, six of 66, sit in scheduled rent at the $1,900 asking rent rather than at an achieved rent, which is standard practice for marketed vacancies and is what the current capitalization rate is struck on. The sensitivity table prices both that case and the owner's higher reported repairs and management."
+          "text": "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover."
         },
         {
           "id": "valuation-lihtc",
@@ -2539,7 +2561,7 @@
             "pricing:operations"
           ],
           "framed_as": "pro forma scenario, not current income",
-          "text": "Stabilized at market rent with utility bill-back in place, net operating income reaches $998,029. That figure is a projection of what the property can earn, not what it earns today, and it is not the basis of the recommendation."
+          "text": "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
         },
         {
           "id": "disclosure-1",
@@ -2549,7 +2571,7 @@
             "sources:model-1"
           ],
           "framed_as": null,
-          "text": "Operating figures are drawn from the supporting Marcus & Millichap model as revised September 8, 2026 and from the owner's August 2026 operating summary. Scheduled rent carries 60 leased units, 58 at their in-place rents and two at the $1,900 market rent, with the five vacancies and the manager unit at that same $1,900 asking rent. Real estate taxes are carried at a reassessed basis rather than the seller's current bill. Repairs and maintenance and third-party management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the six unleased units are carried at the leased average instead."
+          "text": "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead."
         },
         {
           "id": "disclosure-2",
@@ -2559,7 +2581,7 @@
             "sources:costar-sale-1"
           ],
           "framed_as": null,
-          "text": "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only."
+          "text": "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only."
         },
         {
           "id": "disclosure-3",
@@ -2870,13 +2892,13 @@
       "exceptions": [
         {
           "id": "exc-lihtc-restriction-status",
-          "description": "CoStar tags the subject Market Segment Senior, Rent Type Affordable, Affordable Type Rent Restricted, Affordable Units 66. This traces to a real primary record: HUD LIHTC database entry CAA00000007, state ID CA-87-033, 24377 NEWHALL AVE, SANTA CLARITA, 66 total and 66 low-income units, tax credits allocated 1987. ZIP+4 91321-2726 and coordinates 34.3786 / -118.531778 match APN 2830-017-015. The property WAS a 1987 Low-Income Housing Tax Credit deal. The restrictions have since lapsed: a 1987 allocation carries a 15-year compliance period and no extended-use covenant, because the 30-year requirement added by OBRA 1989 does not reach pre-1990 allocations. Logan Ward confirmed directly with ownership on 2026-09-04 that there is no LIHTC restriction and no senior restriction on the property now, and that the restriction fell off in 2002. That is consistent with every other fact on file: the City of Santa Clarita affordable rental housing list does not include the property, the assessor records Exemption None with an individual owner, the September 2006 sale to individuals for $6,250,000 came just after a 1987 compliance period would have run out, and in-place rents spread from $1,425 to $1,880 rather than sitting on an AMI schedule. The property is therefore underwritten and marketed as unrestricted market-rate housing, and the HUD database entry is a historical allocation record rather than a live covenant.",
+          "description": "CoStar tags the subject Market Segment Senior, Rent Type Affordable, Affordable Type Rent Restricted, Affordable Units 66. This traces to a real primary record: HUD LIHTC database entry CAA00000007, state ID CA-87-033, 24377 NEWHALL AVE, SANTA CLARITA, 66 total and 66 low-income units, tax credits allocated 1987. ZIP+4 91321-2726 and coordinates 34.3786 / -118.531778 match APN 2830-017-015. The property WAS a 1987 Low-Income Housing Tax Credit deal. The restrictions have since lapsed: a 1987 allocation carries a 15-year compliance period and no extended-use covenant, because the 30-year requirement added by OBRA 1989 does not reach pre-1990 allocations. Logan Ward confirmed directly with ownership on 2026-09-04 that there is no LIHTC restriction and no senior restriction on the property now, and that the restriction fell off in 2002. That is consistent with every other fact on file: the City of Santa Clarita affordable rental housing list does not include the property, the assessor records Exemption None with an individual owner, the September 2006 sale to individuals for $6,250,000 came just after a 1987 compliance period would have run out, and in-place rents spread from $1,425 to $1,880 rather than sitting on an AMI schedule. The property is therefore underwritten and marketed as unrestricted market-rate housing, and the HUD database entry is a historical allocation record rather than a live covenant. ADDITIONAL FINDING 2026-09-09: the property's own live listings on after55.com and apartments.com carry the line 'This property is intended and operated in accordance with the Housing for Older Persons provisions of the Fair Housing Act', which is consistent with CoStar's Senior market-segment tag. Housing for Older Persons is a voluntary Fair Housing Act election by an owner, not a recorded covenant, so it does not contradict clear title. Logan Ward reaffirmed on 2026-09-09 that there is no senior and no affordable component, that the deed restriction lifted in the early 2000s, and that the property is a regular market-rate apartment building. Nothing about senior housing is published. The portal flags appear to be stale marketing left from the LIHTC era and are flagged to ownership for removal.",
           "domain": "regulatory_conclusions",
           "status": "resolved",
           "materiality": "regulatory",
           "value_effect": null,
           "approved": true,
-          "approval_note": "Logan Ward, chat, 2026-09-04: confirmed with ownership that there is no LIHTC or senior restriction on the property now and that the restriction fell off in 2002."
+          "approval_note": "Logan Ward, chat, 2026-09-09: there is no senior or affordable component to this property, the deed restriction lifted in the early two thousands, and now it is just a regular market rate apartment building."
         },
         {
           "id": "exc-zoning-designation",
@@ -2895,28 +2917,28 @@
     "deal_id": "24377-newhall-ave",
     "domains": {
       "identity": "f558c0be36555dcd12cbca75a46bddaa01a39c87ba34b0fcfc7c7f7cf0d02c4f",
-      "financial_inputs": "6fcd46427be7fbf3c6c8d7d6151000f5c2df9fd735a5e4a2498e3ba2da866573",
-      "pricing_decision": "aee944c0ded5175e73b13d05ba7fc6764050e3b576193d62e0f56c302a019b9c",
-      "sale_comps": "b7507c249e12e9171f0fdf07218c1de83a11f3964a73f778b032f81660bcc900",
+      "financial_inputs": "64124c9d4a2630cfd60a8d59e190758fcc872832611655a47b33c91507d61025",
+      "pricing_decision": "83280cf7fd3c698412b2ae5a76d5cfb6e43733e3cee5001764ae23975b86ad5b",
+      "sale_comps": "ef984a1e3e4fbc4bb0bcfce568bd7418152fd846ea2ce31bf99e0246d27cc9e2",
       "rent_comps": "16b6fbcad5e90eb9a40c2ffef34f14b1840cf1c88d88aa56a3ecd2a779298e5c",
-      "copy": "80b6a70938a0ca8a6d23100d143c54dabad4cc12f017541d971e3b7a58b5e6c5",
+      "copy": "e0918ef45233ec668e29717e54e6e10f6387d7ee2d1bc4dfea7a8e6605c7af1f",
       "media_selection": "2b7cbf01df785e8f89455c3e23789cf572be71c7177ccb66423025d1c2cc7898",
-      "regulatory_conclusions": "fcdb6613ce1c5ffbaaf839ca8628b0e819aaa4cb02252508ccbe741d2dcd88fc"
+      "regulatory_conclusions": "c8099b543b6e881ef2a5804702ac979a8350c11c119c808ead729cb4dafd8794"
     },
     "presentation_hashes": {
       "identity": "287e6776ed70c6689caa3ad7dc79e32513291f975498c92b4b59c6a358a6019d",
-      "financial_inputs": "88a1dc46ae89328a07f74188df6de00a30cc3f8ba57c2dfd86359b4791742cc0",
-      "pricing_decision": "dfccd303128a09a080cde82f64b2529ac60a9ccd4b140bfe530b39ad4ca19b28",
-      "sale_comps": "eea7c3f6af3a0b70c2d38e74b67699af22fe69cc05c118812b96af71500c780b",
+      "financial_inputs": "01af4eec7e65eebffa3e7d04736363da3b6792ce1b0c03fb49767a55c79facee",
+      "pricing_decision": "80216b9f42488512bca99687b885c0022b5abf34506bbf419f0a260076e47342",
+      "sale_comps": "4eb3819c993d3b7e4dd6b45f1da03dc7b5b31f7c1ec1d9e2a8fc5485d3e74130",
       "rent_comps": "548da12ab2529c69d22b692a6824c8cb49248437a0522fa6477bea0086663532",
-      "copy": "ae9520d7e2abf4d4bd3e4e8934f2d1e8b6cf5c4737484705a45684a841ab5f34",
+      "copy": "4f4b8b14b3e477703d81dbad53f1b0a5ceae42ac76270475da6ef907ce88566c",
       "media_selection": "6151536bd8dc2f29b950c9a854efb9497ac981e0cad74a2b9681d0e3f8a1c963",
       "regulatory_conclusions": "d8ce992751cba4732d941b6428bbbc8d745f739fa0b543c531658b80a0a24139"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-08T22:25:05+00:00",
+    "generated": "2026-09-09T23:26:16+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
