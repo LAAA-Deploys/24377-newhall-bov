@@ -163,13 +163,24 @@ jobs:
               raise SystemExit("FAIL: generated pages reference no image assets")
           images_root = Path("images").resolve()
           allowed_suffixes = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".avif"}
+          # The model print publishes as generated vector SVG (payload
+          # ._model_page_filename). Those are the ONLY SVGs a build produces,
+          # every one carries a SHA-256 in bov-site.json that check_bov_site.py
+          # re-hashes against the staged file, and the generator names them, not
+          # a person. So they stage under that exact name pattern instead of
+          # opening images/ to arbitrary SVG, which can carry script. Without
+          # this a deal declaring presentation.model_print builds and passes
+          # every local gate, then fails the deploy stage on its own generated
+          # pages (24377 Newhall, the first release after #394).
+          model_page = re.compile(
+              r"images/(?:[a-z0-9]+(?:-[a-z0-9]+)*-)?model-page-\d{2}\.svg\Z")
           for relative in sorted(referenced_images):
               source = Path(relative)
               try:
                   source.resolve().relative_to(images_root)
               except ValueError:
                   raise SystemExit(f"FAIL: referenced image escapes images/: {source}")
-              if source.suffix.lower() not in allowed_suffixes:
+              if source.suffix.lower() not in allowed_suffixes and not model_page.fullmatch(relative):
                   raise SystemExit(f"FAIL: referenced asset is not an approved image type: {source}")
               if not source.is_file():
                   raise SystemExit(f"FAIL: missing referenced image: {source}")

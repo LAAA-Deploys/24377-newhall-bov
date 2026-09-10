@@ -939,7 +939,7 @@
         },
         "local_listings_source": {
           "source": "https://www.laaa.com/listings",
-          "pulled": "2026-09-10T23:29:58+00:00"
+          "pulled": "2026-09-10T23:40:31+00:00"
         }
       }
     }
@@ -2850,7 +2850,7 @@
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-10T23:29:58+00:00",
+    "generated": "2026-09-10T23:40:31+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
