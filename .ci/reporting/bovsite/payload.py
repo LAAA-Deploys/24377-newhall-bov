@@ -293,7 +293,11 @@ def _opinion_of_value(
     units: int, building_sf: float, lot_sf: float | None = None,
     buildable_units: int | None = None,
 ) -> list[dict]:
-    """The four-rung opinion of value, priced with taxes reassessed per rung.
+    """The opinion of value ladder, priced with taxes reassessed per rung.
+
+    Default shape is three or four rungs (ask, estimated value when it differs
+    from the ask, midpoint, range bottom). With ``decision.ladder_step`` set,
+    the shape is the ask followed by equal price steps down to the range bottom.
 
     Property taxes reassess at the sale price, so NOI is different at every rung
     and reusing one NOI would misstate the cap on three rows out of four. Any
@@ -350,6 +354,28 @@ def _opinion_of_value(
         }
 
     ladder = [rung("Suggested list price", price)]
+    # Equal-step ladder (Glen, 2026-09-10, 5110 Harold Way): when the decision
+    # carries ``ladder_step``, the rungs run from the ask down to the range
+    # bottom in equal price increments, every one on its own reassessed taxes.
+    # The ask IS the estimated value in this shape (a BOV never lists below its
+    # own opinion), so ``range_high`` must equal the ask; a stepped ladder with
+    # a range top above the ask is refused by schema.py rather than fudged here.
+    step = decision.get("ladder_step")
+    if step:
+        if high != price:
+            raise ValueError(
+                f"pricing.json decision.ladder_step requires range_high to equal "
+                f"exact_price (the list price is the estimated value in a stepped "
+                f"ladder); range_high is {high:,} and exact_price is {price:,}.")
+        count = int(round((price - low) / step))
+        if count < 1 or abs((price - low) - count * step) > 1:
+            raise ValueError(
+                f"pricing.json decision.ladder_step {step:,} does not divide the span "
+                f"from exact_price {price:,} down to range_low {low:,} into whole steps.")
+        for i in range(1, count):
+            ladder.append(rung("Supported value", price - i * step))
+        ladder.append(rung("Range bottom", low))
+        return ladder
     # When the opinion tops AT the ask, a separate "Estimated value" rung (the
     # top of the opinion range) is the same
     # price twice: identical figures on two rows, which reads as a mistake and
@@ -666,14 +692,14 @@ def presentation_projections(payload: dict) -> dict[str, Any]:
         "slug", "short_name", "address", "city", "submarket",
         "track_record_submarkets", "apn", "units",
         "building_sf", "lot_sf", "lot_acres", "year_built", "renovated_year",
-        "parking", "maps",
+        "parking", "maps", "show_local_closings", "local_closings",
     )
     financial_fields = (
         "scheduled_rent", "monthly_sgi", "additional_income", "noi_current",
         "noi_market", "expense_total", "expense_per_unit", "expense_per_sf", "unit_mix",
         "operating", "expense_lines", "expense_notes", "income_notes",
         "tax_rate", "tax_anchor",
-        "financing_structure", "financing",
+        "financing_structure", "financing", "model_pages",
     )
     pricing_fields = (
         "price", "price_per_unit", "price_per_sf", "value_range", "opinion_of_value",
@@ -909,6 +935,161 @@ def _stage_documents(workspace: DealWorkspace, site_repo: Path) -> None:
         shutil.copy2(source, site_repo / href)
 
 
+#: Model print pages land under images/ as vector SVG, one per page. Prefixed
+#: per member on a portfolio so two members' page 1 cannot collide.
+MODEL_PAGE_GLOB = "*model-page-*.svg"
+
+
+def _model_page_filename(index: int, prefix: str = "") -> str:
+    return f"{prefix}model-page-{index:02d}.svg"
+
+
+def _content_clip(page, pad: float = 16.0):
+    """The rectangle of a printed page that actually carries ink, padded.
+
+    Excel prints a landscape sheet onto a full letter page with a wide empty
+    band above and below the table. A card that shows the whole page is half
+    white space, so the clip follows the content: text blocks, vector drawings
+    and images. A fill covering the whole page is background, not content, and
+    is ignored so it cannot drag the clip back out to the full sheet. Nothing
+    is scaled; the text stays vector at its printed size.
+    """
+    import fitz
+
+    rect = fitz.Rect()
+    page_area = abs(page.rect)
+    for block in page.get_text("blocks"):
+        rect |= fitz.Rect(block[:4])
+    for drawing in page.get_drawings():
+        bounds = drawing.get("rect")
+        if bounds is None:
+            continue
+        bounds = fitz.Rect(bounds)
+        if page_area and abs(bounds) >= 0.9 * page_area:
+            continue
+        rect |= bounds
+    for info in page.get_image_info():
+        rect |= fitz.Rect(info["bbox"])
+    if rect.is_empty or rect.is_infinite:
+        return fitz.Rect(page.rect)
+    rect = fitz.Rect(rect.x0 - pad, rect.y0 - pad, rect.x1 + pad, rect.y1 + pad)
+    return rect & page.rect
+
+
+def model_print_pages(source: Path, spec: dict) -> list[dict]:
+    """Render the declared model print into one vector SVG per page.
+
+    Pure: takes the resolved PDF path and the ``presentation.model_print``
+    block, returns page records carrying the SVG text. The declared SHA-256
+    must match the bytes on disk. A print left over from a superseded model is
+    exactly the drift the Financial Analysis exists to prevent, so a mismatch
+    refuses the build rather than publishing a statement the spine no longer
+    carries. Every page is clipped to the union of the pages' horizontal ink
+    so the tables line up card to card, and to its own vertical ink.
+    """
+    source = Path(source)
+    if not source.is_file():
+        raise PayloadError(f"model print not found: {source}")
+    if source.suffix.lower() != ".pdf":
+        raise PayloadError(f"model print is not a PDF: {source.name}")
+    digest = hashlib.sha256(source.read_bytes()).hexdigest()
+    declared = str(spec.get("sha256") or "")
+    if digest != declared:
+        raise PayloadError(
+            f"model print {source.name} does not match its declared sha256 "
+            f"({digest[:12]}... on disk, {declared[:12]}... declared). Re-export "
+            "the print from the keyed model and restate presentation.model_print.sha256; "
+            "a superseded print must never publish as the Financial Analysis.")
+    try:
+        import fitz
+    except ImportError as exc:  # pragma: no cover - environment
+        raise PayloadError(
+            "PyMuPDF is required to render the model print: "
+            "pip install -r reporting/bovsite/requirements.txt") from exc
+    doc = fitz.open(str(source))
+    try:
+        if doc.page_count == 0:
+            raise PayloadError(f"model print {source.name} has no pages")
+        labels = [str(label) for label in (spec.get("page_labels") or [])]
+        if labels and len(labels) != doc.page_count:
+            raise PayloadError(
+                f"model print {source.name} has {doc.page_count} page(s) but "
+                f"page_labels names {len(labels)}; label every page or none.")
+        clips = [_content_clip(page) for page in doc]
+        left = min(clip.x0 for clip in clips)
+        right = max(clip.x1 for clip in clips)
+        pages = []
+        for index, page in enumerate(doc, 1):
+            clip = fitz.Rect(left, clips[index - 1].y0, right, clips[index - 1].y1)
+            if page.rotation:
+                # set_cropbox speaks unrotated page coordinates.
+                clip = (clip * page.derotation_matrix).normalize()
+            page.set_cropbox(clip)
+            svg = page.get_svg_image(text_as_path=True)
+            # The digest of the EXACT bytes staged under images/. It rides in the
+            # payload and therefore in the bound presentation hash, and the site
+            # gate re-hashes the staged file against it, so a page edited after
+            # the build cannot change a figure while approval and CI stay green
+            # (Codex P1 on #394).
+            pages.append({
+                "index": index,
+                "sha256": hashlib.sha256(svg.encode("utf-8")).hexdigest(),
+                "label": labels[index - 1] if labels else f"Page {index}",
+                "src": f"images/{_model_page_filename(index)}",
+                "width": round(page.rect.width, 2),
+                "height": round(page.rect.height, 2),
+                "svg": svg,
+            })
+        return pages
+    finally:
+        doc.close()
+
+
+def workspace_model_print(workspace: DealWorkspace) -> list[dict]:
+    """The workspace's declared model print pages, or [] when none is declared."""
+    financials = workspace.load("financials")
+    spec = (financials.get("presentation") or {}).get("model_print")
+    if not spec:
+        return []
+    deal = workspace.load("deal")
+    root = (workspace.root / deal["workspace_layout"]["source_documents"]).resolve()
+    source = (root / spec["file"]).resolve()
+    try:
+        source.relative_to(root)
+    except ValueError:
+        raise PayloadError(f"model print escapes source-documents: {spec['file']}")
+    return model_print_pages(source, spec)
+
+
+def _stage_model_pages(site_repo: Path, pages: list[dict], prefix: str = "") -> set[str]:
+    """Write each page's SVG under images/; return the filenames written."""
+    images = site_repo / "images"
+    images.mkdir(parents=True, exist_ok=True)
+    written = set()
+    for page in pages:
+        name = _model_page_filename(page["index"], prefix)
+        # Bytes, never text: write_text would translate newlines on Windows and
+        # the staged file would no longer match the digest in the payload.
+        (images / name).write_bytes(page["svg"].encode("utf-8"))
+        written.add(name)
+    return written
+
+
+def _prune_model_pages(site_repo: Path, keep: set[str]) -> None:
+    """Remove every model page the current build did not write.
+
+    Same reason _remove_stale_managed_images exists: a page the previous build
+    staged and this build no longer names would otherwise ride the images/
+    allowance into the public repo as an orphan of a superseded model.
+    """
+    images = site_repo / "images"
+    if not images.is_dir():
+        return
+    for stale in images.glob(MODEL_PAGE_GLOB):
+        if stale.name not in keep and stale.is_file():
+            stale.unlink()
+
+
 def _stage_headshots(payload: dict, site_repo: Path) -> None:
     """Copy each member's registered derivative to its generated filename."""
     team = payload.get("team") or {}
@@ -1100,6 +1281,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
     active_sources = []
     excluded_sale_ids = set(sale["conclusions"]["excluded_ids"])
     documents = comp_documents(workspace)
+    model_pages = workspace_model_print(workspace)
     for comp in sale["rows"]:
         if comp["quality_rating"] == "exclude" or comp["id"] in excluded_sale_ids:
             continue
@@ -1364,6 +1546,12 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "buyer_profiles": _paired(copy, "buyer_profile", "profile_titles", "profile_copy"),
         "disclosures": _paragraphs(copy, "financial_analysis", "disclosures"),
         "gallery": gallery,
+        # The supporting model's own printed pages, when the spine declares a
+        # print. The SVG text stays out of the payload; write_payload stages it.
+        "model_pages": [
+            {key: page[key] for key in ("src", "label", "width", "height", "sha256")}
+            for page in model_pages
+        ],
         "maps": {
             "subject": maps.get("subject"),
             "sale": maps.get("sale"),
@@ -1460,6 +1648,7 @@ def write_payload(workspace: DealWorkspace, site_repo: Path | None = None) -> Pa
         )
     _stage_headshots(payload, site_repo)
     _stage_documents(workspace, site_repo)
+    _prune_model_pages(site_repo, _stage_model_pages(site_repo, workspace_model_print(workspace)))
     write_json_atomic(site_repo / "media-manifest.json", published_manifest(media))
     destination = site_repo / "bov-site.json"
     write_json_atomic(destination, payload)
@@ -1559,6 +1748,13 @@ def _build_portfolio_payload(workspace: DealWorkspace) -> tuple[dict, dict, dict
             if item_id != hero_id
         ]
         prop["card_image"] = prop["hero"]
+        # Model print pages are staged per member under the member slug so
+        # two members' page 1 cannot collide in the one images/ folder.
+        member_slug = members[deal_id].load("deal")["slug"]
+        prop["model_pages"] = [
+            dict(page, src=f"images/{member_slug}-{Path(page['src']).name}")
+            for page in prop.get("model_pages") or []
+        ]
         properties.append(prop)
 
     payload = {
@@ -1631,6 +1827,12 @@ def write_portfolio_payload(workspace: DealWorkspace, site_repo: Path | None = N
                 images / filename_map[(deal_id, item_id)],
             )
     _stage_headshots(payload, site_repo)
+    staged_pages: set[str] = set()
+    for member in members.values():
+        member_slug = member.load("deal")["slug"]
+        staged_pages |= _stage_model_pages(
+            site_repo, workspace_model_print(member), prefix=f"{member_slug}-")
+    _prune_model_pages(site_repo, staged_pages)
     write_json_atomic(site_repo / "media-manifest.json", combined_media)
     destination = site_repo / "bov-site.json"
     write_json_atomic(destination, payload)

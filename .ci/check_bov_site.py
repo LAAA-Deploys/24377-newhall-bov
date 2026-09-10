@@ -384,6 +384,34 @@ def check_no_empty_labelled_containers(rel, html):
                  f"the block when the spine supplies nothing for it.")
 
 
+def check_model_pages(site, site_data):
+    """Every model print page on disk must be the bytes the build hashed.
+
+    The payload carries a SHA-256 for each generated page and that digest sits
+    inside the approval-bound presentation hash, so this check is what makes
+    the binding reach the file: an images/*.svg edited after `bov build` would
+    otherwise pass the allowlist, the existence check and the approval gate
+    while showing a different operating statement (Codex P1 on #394).
+    """
+    problems = []
+    for prop in (site_data or {}).get("properties") or []:
+        for i, page in enumerate(prop.get("model_pages") or []):
+            src = page.get("src") if isinstance(page, dict) else None
+            if not src:
+                problems.append(f"{prop.get('slug')}: model_pages[{i}] has no src")
+                continue
+            path = site / src
+            if not path.is_file():
+                problems.append(f"{prop.get('slug')}: model page missing on disk: {src}")
+                continue
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            if digest != page.get("sha256"):
+                problems.append(
+                    f"{prop.get('slug')}: {src} bytes differ from the digest bov-site.json "
+                    f"records; the page was changed after the build.")
+    return problems
+
+
 def check_certified_map_renders(site, referenced_images):
     """Re-hash every map image that the deployable pages reference."""
     map_refs = sorted(
@@ -622,6 +650,8 @@ def main(site):
     # deployable pages. The build-time schema check is not enough: a PNG can be
     # changed after generation but before workflow_dispatch.
     check_certified_map_renders(site, referenced_images)
+    for problem in check_model_pages(site, site_data):
+        fail(problem, blocking=True)
 
     # 17. required files
     for name in REQUIRED_FILES:

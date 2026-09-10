@@ -26,8 +26,9 @@ from reporting.bovsite.site_artifacts import (
 )
 
 
-#: Either partner may approve any LAAA deal, including the other's (Hard Rule 15;
-#: Glen ruling 2026-08-19). This was the single name "Glen Scher" until
+#: Whoever is running the deal approves it, Glen, Filip, or the teammate it was
+#: assigned to (Hard Rule 15; Who rules, 2026-09-09). History: either partner could
+#: approve any deal (Glen ruling 2026-08-19), and before that this was the single name "Glen Scher" until
 #: 2026-08-20. That one constant did BOTH halves of the damage: the record
 #: builders wrote it in unconditionally, so a Filip approval was published to a
 #: seller-facing site as Glen's, and the three validators rejected any other
@@ -56,8 +57,8 @@ from reporting.bovsite.site_artifacts import (
 #: approver from the authenticated `gh` identity when `--approved-by` is omitted,
 #: so this is the one place a person is registered: one entry, not a name here
 #: plus a login-to-name map somewhere else that drifts out of step with it.
-#: `--approved-by` still wins when passed, which is how a partner relays the
-#: other's approval from their own machine. This SUPERSEDES the default-to-Glen
+#: `--approved-by` still wins when passed, which is how someone relays the deal
+#: runner's ruling from their own machine. This SUPERSEDES the default-to-Glen
 #: mechanism and preserves its zero-friction intent (Glen, 2026-08-28): the
 #: default made an omitted flag publish somebody else's ruling under Glen's name,
 #: silently, because Glen is allowlisted. Derivation cannot do that, and nobody
@@ -79,8 +80,8 @@ APPROVER_NAMES = tuple(APPROVERS.values())
 def resolve_approver(explicit: str | None = None) -> str:
     """The name to publish as the approver.
 
-    An explicit `--approved-by` always wins: that is a partner relaying the
-    other's approval from their own machine, and it is the only case where the
+    An explicit `--approved-by` always wins: that is someone relaying the deal
+    runner's ruling from their own machine, and it is the only case where the
     operator is not the approver.
 
     Otherwise derive it from the authenticated `gh` identity. Every machine that

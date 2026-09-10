@@ -3,14 +3,13 @@
   "scope": "deal",
   "deal_id": "24377-newhall-ave",
   "portfolio_id": null,
-  "package_version": "v22",
-  "approved_at": "2026-09-09T23:57:34.571496+00:00",
+  "package_version": "v23",
+  "approved_at": "2026-09-10T23:29:50.805940+00:00",
   "approver": "Logan Ward",
   "price": {
     "value": 11500000
   },
   "approved_exception_ids": [
-    "exc-24802-contract-price",
     "exc-central-ac-claim",
     "exc-comp-gba-suspect",
     "exc-comp-photo-watermarks",
@@ -20,7 +19,6 @@
     "exc-insurance-basis",
     "exc-lihtc-restriction-status",
     "exc-model-supersession",
-    "exc-non-market-buyer-sales",
     "exc-parking-count",
     "exc-portfolio-allocation",
     "exc-rent-comp-status",
@@ -37,19 +35,19 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "e0918ef45233ec668e29717e54e6e10f6387d7ee2d1bc4dfea7a8e6605c7af1f"
+      "content_sha256": "209283b9c9eec2833506e64a2fddf6390fb6206f32b96d48ff01506e698ce1a9"
     },
     "financial_inputs": {
-      "content_sha256": "64124c9d4a2630cfd60a8d59e190758fcc872832611655a47b33c91507d61025"
+      "content_sha256": "3b5e4d2d6c9f3e349c94ccaa4eeafca0072c621c94b0cf81f9d7141a4b955a6b"
     },
     "identity": {
-      "content_sha256": "f558c0be36555dcd12cbca75a46bddaa01a39c87ba34b0fcfc7c7f7cf0d02c4f"
+      "content_sha256": "e28c9dc7abca2866e3c69aee6fb4fbfb991ce71e28588039cf7d8f18d7f961bc"
     },
     "media_selection": {
-      "content_sha256": "2b7cbf01df785e8f89455c3e23789cf572be71c7177ccb66423025d1c2cc7898"
+      "content_sha256": "5d307fbc564f3b509dd115fddeba7b4898142977b927905b77a3a505445d75ba"
     },
     "pricing_decision": {
-      "content_sha256": "83280cf7fd3c698412b2ae5a76d5cfb6e43733e3cee5001764ae23975b86ad5b"
+      "content_sha256": "1e5a37ad9fd6ad6270044fdbdacd0f5cb632c9e79124177ad25de54a3a2cb97b"
     },
     "regulatory_conclusions": {
       "content_sha256": "c8099b543b6e881ef2a5804702ac979a8350c11c119c808ead729cb4dafd8794"
@@ -58,7 +56,7 @@
       "content_sha256": "16b6fbcad5e90eb9a40c2ffef34f14b1840cf1c88d88aa56a3ecd2a779298e5c"
     },
     "sale_comps": {
-      "content_sha256": "cf95d5f23347919a8a0a3026d9f2a5682c0348aa79bff17d001f3f37dad44daf"
+      "content_sha256": "ce1368f8e85c53e09d0c0d477cdf3986a8dae06d6a0471bd45f710711823edb3"
     }
   },
   "legacy_snapshot": false,

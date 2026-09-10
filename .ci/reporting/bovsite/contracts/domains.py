@@ -84,6 +84,15 @@ def _deal_presentation_projection(presentation: dict[str, Any]) -> dict[str, Any
     show_listings = presentation.get("show_active_listings")
     if show_listings is not None:
         projection["show_active_listings"] = show_listings
+    # Same rule for local_closings.hide_listings: it adds or removes the
+    # client-visible listing and escrow rows of the Track Record table, so
+    # flipping it after approval must reopen the identity domain (Codex P1 on
+    # #394). Only the toggle is projected, and only when present: projecting
+    # the whole local_closings object would move the identity hash of every
+    # already-approved deal that declares show_all or hide_year.
+    hide_listings = (presentation.get("local_closings") or {}).get("hide_listings")
+    if hide_listings is not None:
+        projection["local_closings_hide_listings"] = hide_listings
     # Same rule again for Buyout Scenarios, and for its inputs. The toggle adds
     # or removes a client-facing section, and every input is a price the reader
     # sees, so moving one after approval must reopen it. presentation_projections

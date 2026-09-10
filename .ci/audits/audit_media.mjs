@@ -71,6 +71,9 @@ const audit = async (B) => {
         return { ...r, issue: 'LETTERBOX', detail: `${r.dead}% of the frame is empty` };
       }
     }
+    // A vector page (the model print SVGs) has no pixel grid: its natural
+    // size is a viewBox in points and it is meant to fill its card.
+    if (/\.svg(?:[?#]|$)/i.test(src || '')) return { ...r, issue: null, vector: true };
     const upscale = Math.max(cw / nw, ch / nh);
     if (upscale > UPSCALE_BUDGET) {
       return { ...r, issue: 'UPSCALED', detail: `rendered ${upscale.toFixed(2)}x its source` };

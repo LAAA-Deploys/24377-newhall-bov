@@ -70,7 +70,7 @@
     "narrative": [
       "Of those closings, {apt_closed} are apartment sales covering {apt_units} units. CoStar ranked LAAA the most active multifamily team in Los Angeles County from 2019 through 2021, and the team has not finished a quarter without a closed sale since it was founded.",
       "Volume matters here for one reason: it is where the buyer list comes from. The buyer for this property is far more likely to be someone this team has already closed with than someone who finds it on a portal, and a team that closes every quarter is calling those people about something regardless.",
-      "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and we currently have 24802 Walnut Street in escrow. Two of the comparables in this analysis are our own transactions, which is why they carry confirmed income figures rather than estimates."
+      "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and today we have three more Walnut Street assignments within a mile of your door, one in escrow and two on the market. The table above lists each one."
     ],
     "achievements": [
       [
@@ -183,20 +183,56 @@
           "price_per_buildable_unit": null,
           "grm_current": 8.948023653906008,
           "grm_market": 7.64221158958001,
-          "cap_current": 6.016358608695652,
-          "cap_market": 8.224291826086958
+          "cap_current": 6.075158608695652,
+          "cap_market": 8.349206608695653
         },
         {
-          "label": "Midpoint",
-          "price": 11250000.0,
-          "price_per_unit": 170454.54545454544,
-          "price_per_sf": 304.81196488566167,
+          "label": "Supported value",
+          "price": 11400000,
+          "price_per_unit": 172727.27272727274,
+          "price_per_sf": 308.87612441747046,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 8.753501400560225,
-          "grm_market": 7.476076555023924,
-          "cap_current": 6.176413355555555,
-          "cap_market": 8.433411755555555
+          "grm_current": 8.870214752567694,
+          "grm_market": 7.575757575757576,
+          "cap_current": 6.138853903508772,
+          "cap_market": 8.432849692982456
+        },
+        {
+          "label": "Supported value",
+          "price": 11300000,
+          "price_per_unit": 171212.12121212122,
+          "price_per_sf": 306.16668472959793,
+          "price_per_land_sf": null,
+          "price_per_buildable_unit": null,
+          "grm_current": 8.79240585122938,
+          "grm_market": 7.509303561935141,
+          "cap_current": 6.203676548672566,
+          "cap_market": 8.517973185840708
+        },
+        {
+          "label": "Supported value",
+          "price": 11200000,
+          "price_per_unit": 169696.9696969697,
+          "price_per_sf": 303.45724504172534,
+          "price_per_land_sf": null,
+          "price_per_buildable_unit": null,
+          "grm_current": 8.714596949891067,
+          "grm_market": 7.442849548112706,
+          "cap_current": 6.269656741071428,
+          "cap_market": 8.604616741071428
+        },
+        {
+          "label": "Supported value",
+          "price": 11100000,
+          "price_per_unit": 168181.81818181818,
+          "price_per_sf": 300.7478053538528,
+          "price_per_land_sf": null,
+          "price_per_buildable_unit": null,
+          "grm_current": 8.636788048552754,
+          "grm_market": 7.376395534290271,
+          "cap_current": 6.3368257657657665,
+          "cap_market": 8.692821441441442
         },
         {
           "label": "Range bottom",
@@ -207,8 +243,8 @@
           "price_per_buildable_unit": null,
           "grm_current": 8.55897914721444,
           "grm_market": 7.309941520467836,
-          "cap_current": 6.343743318181819,
-          "cap_market": 8.652037136363637
+          "cap_current": 6.405216045454545,
+          "cap_market": 8.782629863636364
         }
       ],
       "scheduled_rent": [
@@ -217,29 +253,29 @@
       ],
       "monthly_sgi": [
         108183.33333333333,
-        130773.33333333333
+        131433.33333333334
       ],
       "additional_income": [
         1083.3333333333333,
-        5373.333333333333
+        6033.333333333333
       ],
       "grm_current": 8.948023653906008,
       "grm_market": 7.64221158958001,
-      "cap_current": 6.016358608695652,
-      "cap_market": 8.224291826086958,
+      "cap_current": 6.075158608695652,
+      "cap_market": 8.349206608695653,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 691881.24,
-      "noi_market": 945793.56,
+      "noi_current": 698643.24,
+      "noi_market": 960158.76,
       "tax_rate": 1.186105,
       "tax_anchor": {
         "ad_valorem": 136402.0,
         "flat_assessments": 45013.0,
         "expense_line": "Taxes"
       },
-      "expense_total": 567762.76,
-      "expense_per_unit": 8602.46606060606,
-      "expense_per_sf": 15.383189552400564,
+      "expense_total": 561000.76,
+      "expense_per_unit": 8500.011515151515,
+      "expense_per_sf": 15.199977240706621,
       "unit_mix": [
         {
           "count": 66,
@@ -255,7 +291,7 @@
       "operating": {
         "sgi": [
           1298200,
-          1569280
+          1577200
         ],
         "vacancy": [
           38556,
@@ -274,62 +310,62 @@
         "credit_loss_pct": 0.0,
         "goi": [
           1259644,
-          1524136
+          1532056
         ],
         "expenses": [
-          567762.76,
-          578342.44
+          561000.76,
+          571897.24
         ],
         "expense_ratio": [
-          45.07327149575595,
-          37.945592781746505
+          44.53645315660616,
+          37.32874255249155
         ],
         "noi": [
-          691881.24,
-          945793.56
+          698643.24,
+          960158.76
         ],
         "loan_payments": [
-          0.0,
-          0.0
+          -552298.33,
+          -552298.33
         ],
         "pretax_cf": [
-          691881.24,
-          945793.56
+          146344.91000000003,
+          407860.43000000005
         ],
         "pretax_cf_pct": [
-          6.016358608695652,
-          8.224291826086958
+          3.6358983850931685,
+          10.133178385093169
         ],
         "principal_reduction": [
-          0.0,
-          0.0
+          87591.73,
+          93225.79
         ],
         "total_return": [
-          691881.24,
-          945793.56
+          233936.64,
+          501086.22000000003
         ],
         "total_return_pct": [
-          6.016358608695652,
-          8.224291826086958
+          5.812090434782609,
+          12.449347080745342
         ]
       },
       "expense_lines": [
         [
-          "General Administrative",
-          6600,
-          6600,
+          "Contract Services",
+          19800,
+          19800,
           "4"
         ],
         [
-          "Insurance",
-          55362,
-          55362,
+          "General Administrative",
+          6600,
+          6600,
           "5"
         ],
         [
-          "Landscaping",
-          13000,
-          13000,
+          "Insurance",
+          50000,
+          50000,
           "6"
         ],
         [
@@ -346,8 +382,8 @@
         ],
         [
           "Repairs Maintenance",
-          56100,
-          56100,
+          42900,
+          42900,
           "9"
         ],
         [
@@ -370,29 +406,29 @@
         ],
         [
           "Utilities",
-          115000,
-          115000,
+          120000,
+          120000,
           "13"
         ],
         [
           "Underwriting Expense Adjustment",
           0.0,
-          10579.679999999935,
+          10896.479999999981,
           "14"
         ]
       ],
       "expense_notes": {
         "4": [
+          "Contract Services",
+          "$300 per unit per year for landscaping, pest control and other contract services, above the seller's reported $13,000 of gardening."
+        ],
+        "5": [
           "General Administrative",
           "Cost for accountant, taxes, LLC, etc."
         ],
-        "5": [
-          "Insurance",
-          "Underwritten at $1.50 per square foot of building area, above the seller's reported $27,000."
-        ],
         "6": [
-          "Landscaping",
-          "Seller provided financials."
+          "Insurance",
+          "Underwritten at $50,000, about $758 per unit, above the seller's reported $27,000."
         ],
         "7": [
           "Management Fee",
@@ -404,7 +440,7 @@
         ],
         "9": [
           "Repairs Maintenance",
-          "Acceptable $850 per unit per year for repairs and maintenance."
+          "Repairs and maintenance at $650 per unit per year, below the seller's reported $100,000."
         ],
         "10": [
           "Reserves",
@@ -444,8 +480,14 @@
         "vacancy": "3",
         "additional_income": "1"
       },
-      "financing_structure": "all_cash",
-      "financing": null,
+      "financing_structure": "new_financing",
+      "financing": {
+        "loan_amount": 7475000,
+        "rate": 6.25,
+        "amortization": 30,
+        "dcr": 1.265,
+        "basis": "derived"
+      },
       "highlights": [
         "66 apartment units on 2.14 acres, built in 1972.",
         "One floor plan throughout: every unit is a one bedroom, one bath of approximately 550 square feet.",
@@ -477,7 +519,7 @@
         "The site is a single legal parcel assembled from lots 29, 30, 31 and 32 of Tract 1059 together with the adjoining vacated street, held in fee simple. It fronts Newhall Avenue between 9th Street and Chestnut Street."
       ],
       "market_narrative": [
-        "Newhall is trading. Eight apartment properties in and around this submarket have closed or gone under contract since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction. Buyer demand here is real and it is currently deeper than the supply of listed product.",
+        "Newhall is trading. Five apartment properties in and around this submarket have closed since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction, and two more are in escrow within half a mile of you right now. Buyer demand here is real and it is currently deeper than the supply of listed product.",
         "That demand is disciplined, not indiscriminate. An eight-unit building a fifth of a mile away has been marketed for eleven months without selling, at an ask well above where this submarket has actually been closing. Buyers here are active, and they are also willing to wait out a number they do not believe."
       ],
       "positioning_narrative": [
@@ -488,10 +530,10 @@
       ],
       "valuation_narrative": [
         "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
-        "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis.",
+        "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On current income it prices at a 6.08% capitalization rate and an 8.95 gross rent multiplier.",
         "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
         "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-        "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
+        "Stabilized at market rent with utility bill-back at $75 per unit per month, net operating income reaches $960,159. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
       ],
       "strategy": [
         {
@@ -514,9 +556,8 @@
         }
       ],
       "disclosures": [
-        "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead.",
-        "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
-        "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
+        "Operating figures are drawn from the supporting Marcus & Millichap model dated September 10, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Insurance, repairs and maintenance, contract services and management are carried at underwritten figures; the owner's summary reports higher repairs and management and lower insurance and gardening, and the sensitivity table prices the owner's case alongside the case where the unleased units are carried at the leased average instead. Proposed financing reflects the loan terms in the supporting model and is subject to change; a buyer should obtain its own terms.",
+        "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. The LAAA Team's own assignments in this market appear in the Track Record and are not used as comparables."
       ],
       "gallery": [
         {
@@ -544,11 +585,48 @@
           "alt": "Subject Amenity"
         }
       ],
+      "model_pages": [
+        {
+          "src": "images/model-page-01.svg",
+          "label": "Rent Roll Summary",
+          "width": 765.62,
+          "height": 376.64,
+          "sha256": "85b1040880d587bc5d0beef76c136df94da8fc4595ecd8d441d2184151aa5205"
+        },
+        {
+          "src": "images/model-page-02.svg",
+          "label": "Operating Statement",
+          "width": 765.62,
+          "height": 300.25,
+          "sha256": "853972011935600840be89ad344ec18cca7aa0c58e64692fdc6488f03a3801f8"
+        },
+        {
+          "src": "images/model-page-03.svg",
+          "label": "Notes to the Operating Statement",
+          "width": 765.62,
+          "height": 253.09,
+          "sha256": "428472cac647dcfbeb7965c2238897c2b58f7fb786239d395a09e9a4f4eafd0d"
+        },
+        {
+          "src": "images/model-page-04.svg",
+          "label": "Pricing Detail",
+          "width": 765.62,
+          "height": 463.33,
+          "sha256": "3db5cf23eecd98189aa5c6f805927c6ae258069d5c2984294a6e68577a48a6fa"
+        },
+        {
+          "src": "images/model-page-05.svg",
+          "label": "Pricing Matrix and Loan Terms",
+          "width": 765.62,
+          "height": 387.88,
+          "sha256": "b1af212b4504b840573f1e60edbf3ba551277d90b4284cf111f8c6db9b00c0c6"
+        }
+      ],
       "maps": {
         "subject": "images/maps-24377-newhall-subject.png",
         "sale": "images/maps-24377-newhall-sale-comps.png",
         "rent": "images/maps-24377-newhall-rent-comps.png",
-        "active": "images/maps-24377-newhall-active-comps.png"
+        "active": null
       },
       "rent_comps": [
         {
@@ -738,154 +816,9 @@
           "considerations": "Individual arm's-length sale, not part of a portfolio.",
           "map_ref": 5,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.3843007,-118.5360048&query_place_id=ChIJrbMYHvWGwoARtRT-u4H6Q14"
-        },
-        {
-          "address": "24966 Walnut St, Santa Clarita, CA 91321",
-          "status": "Closed",
-          "price": 1825000,
-          "units": 9,
-          "year_built": 1962,
-          "building_sf": 6458,
-          "lot_sf": 14944,
-          "date": "2025-09-25",
-          "days_on_market": null,
-          "price_per_unit": 202777.78,
-          "price_per_sf": 282.6,
-          "price_per_land_sf": 122.12259100642399,
-          "grm": 11.24,
-          "cap_rate": 5.42,
-          "image": "comp-24966-walnut.png",
-          "restatement": null,
-          "document": null,
-          "summary": "The only closed sale in the set carrying a confirmed cap rate and gross rent multiplier, which is what anchors the subject's income metrics.",
-          "relevance": "9 units, a fraction of the subject's scale.; Built 1962.; 718 SF per unit against the subject's approximately 559.",
-          "considerations": "Sold with significant deferred maintenance, which depressed the price against a stabilized asset.",
-          "map_ref": 6,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.3890865,-118.5369006&query_place_id=ChIJC2uC7faGwoAR4DITYe4XrkQ"
-        },
-        {
-          "address": "24411 Newhall Ave, Santa Clarita, CA 91321",
-          "status": "Closed",
-          "price": 9100000,
-          "units": 30,
-          "year_built": 1976,
-          "building_sf": 28886,
-          "lot_sf": 42689,
-          "date": "2026-05-13",
-          "days_on_market": null,
-          "price_per_unit": 303333.33,
-          "price_per_sf": 315.03,
-          "price_per_land_sf": 213.1696690013821,
-          "grm": null,
-          "cap_rate": null,
-          "image": "comp-24411-newhall.png",
-          "restatement": null,
-          "document": null,
-          "summary": "Not an arm's-length market comparison. Weighted to a nominal 1% so the sale stays visible without moving the conclusion.",
-          "relevance": "30 units.; Built 1976, adjacent to the subject.",
-          "considerations": "Not an arm's-length market transaction. The seller sold to a school he donates to, at a price well above the closed market range, and the sale is shown for completeness rather than as market evidence.",
-          "map_ref": 7,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.3791971,-118.5328581&query_place_id=ChIJ-7oX42GGwoARYAAxsVPw960"
-        },
-        {
-          "address": "22710 8th St, Santa Clarita, CA 91321",
-          "status": "Closed",
-          "price": 6400000,
-          "units": 22,
-          "year_built": 1985,
-          "building_sf": 20012,
-          "lot_sf": 27578,
-          "date": "2025-05-14",
-          "days_on_market": null,
-          "price_per_unit": 290909.09,
-          "price_per_sf": 319.81,
-          "price_per_land_sf": 232.06904053956052,
-          "grm": null,
-          "cap_rate": null,
-          "image": "comp-22710-8th.png",
-          "restatement": null,
-          "document": null,
-          "summary": "Not an arm's-length market comparison. Weighted to a nominal 1% so the sale stays visible without moving the conclusion.",
-          "relevance": "22 units at an average 910 SF, larger than the subject's units.; Built 1985, the newest asset in the set.",
-          "considerations": "Not an arm's-length market transaction. The seller sold to a school he donates to, at a price well above the closed market range, and the sale is shown for completeness rather than as market evidence.",
-          "map_ref": 8,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.3789142,-118.5297554&query_place_id=ChIJjzU40WOGwoARetEstDcdY84"
         }
       ],
-      "active_comps": [
-        {
-          "address": "24802 Walnut St, Santa Clarita, CA 91321",
-          "status": "Pending",
-          "price": 1665000,
-          "units": 7,
-          "year_built": 1978,
-          "building_sf": 4254,
-          "lot_sf": 5563,
-          "date": "2026-09-04",
-          "days_on_market": 30,
-          "price_per_unit": 237857.14,
-          "price_per_sf": 391.4,
-          "price_per_land_sf": 299.29893942117565,
-          "grm": null,
-          "cap_rate": 5.489999999999999,
-          "image": "comp-24802-walnut.png",
-          "restatement": null,
-          "document": null,
-          "summary": "Live pricing evidence half a mile away, weighted lightly because it is a seven-unit trade that has not closed.",
-          "relevance": "7 units at an average 608 SF, close to the subject's unit size.; Built 1978.",
-          "considerations": "In escrow at $1,665,000 with a 2026-10-12 expected close. Price is the contract price recorded by the listing team, not the asking price.",
-          "map_ref": 1,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.3851326,-118.533872&query_place_id=ChIJV4OIb_WGwoARk-ULWSZfBVo"
-        },
-        {
-          "address": "24308 Walnut St, Santa Clarita, CA 91321",
-          "status": "Pending",
-          "price": 2460000,
-          "units": 12,
-          "year_built": 1984,
-          "building_sf": 9362,
-          "lot_sf": 18239,
-          "date": "2026-09-04",
-          "days_on_market": null,
-          "price_per_unit": 205000.0,
-          "price_per_sf": 262.76,
-          "price_per_land_sf": 134.8758155600636,
-          "grm": null,
-          "cap_rate": null,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "summary": "Current escrow pricing a fifth of a mile away, weighted lightly because it is small and has not closed.",
-          "relevance": "12 units.; Built 1984.",
-          "considerations": "In escrow at $205,000 per unit, not yet closed.",
-          "map_ref": 2,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.3785081,-118.5286955&query_place_id=ChIJwVly6mOGwoARrqoLNBk7Wrs"
-        },
-        {
-          "address": "24522 Chestnut St, Santa Clarita, CA 91321",
-          "status": "Active",
-          "price": 2800000,
-          "units": 8,
-          "year_built": 1979,
-          "building_sf": 8730,
-          "lot_sf": 12063,
-          "date": "2026-09-04",
-          "days_on_market": 330,
-          "price_per_unit": 350000.0,
-          "price_per_sf": 320.73,
-          "price_per_land_sf": 232.1147309956064,
-          "grm": null,
-          "cap_rate": null,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "summary": "Active competition and a ceiling reference only. Weighted to a nominal 1%; eleven months of unsold marketing at $350,000 per unit is evidence of where the market stops, not of value.",
-          "relevance": "8 units.; Built 1979.",
-          "considerations": "Asking price only. On the market eleven months without a sale, which reads as an unmet ask rather than a supported value.",
-          "map_ref": 3,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.3811397,-118.5321198&query_place_id=ChIJ1VaDzGGGwoAR2DmT-xC0x8I"
-        }
-      ],
+      "active_comps": [],
       "map_points": [],
       "track_record": {
         "all": {
@@ -940,7 +873,7 @@
         ],
         "closings_map": {
           "source": "https://www.laaa.com/track-record",
-          "pulled": "2026-09-04T21:34:40+00:00",
+          "pulled": "2026-09-10T23:27:12+00:00",
           "basis": {
             "type": "radius",
             "label": "within 10 miles",
@@ -952,6 +885,61 @@
           "other_markers": 2,
           "activity_markers": 0,
           "render": "images/maps-24377-newhall-closings.png"
+        },
+        "local_listings": [
+          {
+            "address": "24513-24519 Walnut St",
+            "city": "Santa Clarita, CA",
+            "slug": "24513-24519-walnut",
+            "units": 3,
+            "price": 1095000,
+            "price_per_unit": 365000,
+            "status": "available",
+            "cap_rate": 4.31,
+            "distance": 0.18
+          },
+          {
+            "address": "24846 Walnut St",
+            "city": "Santa Clarita, CA",
+            "slug": "24846-walnut",
+            "units": 16,
+            "price": 4200000,
+            "price_per_unit": 262500,
+            "status": "available",
+            "cap_rate": 5.13,
+            "distance": 0.54
+          },
+          {
+            "address": "31701 Ridge Route Rd",
+            "city": "Castaic, CA",
+            "slug": "31701-ridge-route",
+            "units": 33,
+            "price": 7500000,
+            "price_per_unit": 227273,
+            "status": "available",
+            "cap_rate": 5.64,
+            "distance": 9.38
+          },
+          {
+            "address": "24802 & 24806 Walnut St",
+            "city": "Santa Clarita, CA",
+            "slug": "24802-24806-walnut",
+            "units": 7,
+            "price": 1725000,
+            "price_per_unit": 246429,
+            "status": "in-escrow",
+            "cap_rate": 5.31,
+            "distance": 0.47
+          }
+        ],
+        "local_listings_basis": {
+          "type": "radius",
+          "label": "within 10 miles",
+          "radius_mi": 10
+        },
+        "local_listings_source": {
+          "source": "https://www.laaa.com/listings",
+          "pulled": "2026-09-10T23:29:58+00:00"
         }
       }
     }
@@ -990,7 +978,7 @@
           "narrative": [
             "Of those closings, {apt_closed} are apartment sales covering {apt_units} units. CoStar ranked LAAA the most active multifamily team in Los Angeles County from 2019 through 2021, and the team has not finished a quarter without a closed sale since it was founded.",
             "Volume matters here for one reason: it is where the buyer list comes from. The buyer for this property is far more likely to be someone this team has already closed with than someone who finds it on a portal, and a team that closes every quarter is calling those people about something regardless.",
-            "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and we currently have 24802 Walnut Street in escrow. Two of the comparables in this analysis are our own transactions, which is why they carry confirmed income figures rather than estimates."
+            "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and today we have three more Walnut Street assignments within a mile of your door, one in escrow and two on the market. The table above lists each one."
           ],
           "achievements": [
             "Chairman's Club | Marcus & Millichap's top-tier annual honor",
@@ -1045,7 +1033,7 @@
         },
         "buyer_profile": {
           "market_narrative": [
-            "Newhall is trading. Eight apartment properties in and around this submarket have closed or gone under contract since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction. Buyer demand here is real and it is currently deeper than the supply of listed product.",
+            "Newhall is trading. Five apartment properties in and around this submarket have closed since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction, and two more are in escrow within half a mile of you right now. Buyer demand here is real and it is currently deeper than the supply of listed product.",
             "That demand is disciplined, not indiscriminate. An eight-unit building a fifth of a mile away has been marketed for eleven months without selling, at an ask well above where this submarket has actually been closing. Buyers here are active, and they are also willing to wait out a number they do not believe."
           ],
           "positioning_narrative": [
@@ -1108,15 +1096,14 @@
         "financial_analysis": {
           "valuation_narrative": [
             "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
-            "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis.",
+            "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On current income it prices at a 6.08% capitalization rate and an 8.95 gross rent multiplier.",
             "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
             "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-            "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
+            "Stabilized at market rent with utility bill-back at $75 per unit per month, net operating income reaches $960,159. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
           ],
           "disclosures": [
-            "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead.",
-            "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
-            "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
+            "Operating figures are drawn from the supporting Marcus & Millichap model dated September 10, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Insurance, repairs and maintenance, contract services and management are carried at underwritten figures; the owner's summary reports higher repairs and management and lower insurance and gardening, and the sensitivity table prices the owner's case alongside the case where the unleased units are carried at the leased average instead. Proposed financing reflects the loan terms in the supporting model and is subject to change; a buyer should obtain its own terms.",
+            "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. The LAAA Team's own assignments in this market appear in the Track Record and are not used as comparables."
           ]
         }
       },
@@ -1143,11 +1130,10 @@
           "id": "track-3",
           "claim_type": "verified_fact",
           "support_refs": [
-            "comps-sale:sale-24966-walnut",
-            "comps-sale:sale-24802-walnut"
+            "sources:team-stats"
           ],
           "framed_as": "local record",
-          "text": "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and we currently have 24802 Walnut Street in escrow. Two of the comparables in this analysis are our own transactions, which is why they carry confirmed income figures rather than estimates."
+          "text": "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and today we have three more Walnut Street assignments within a mile of your door, one in escrow and two on the market. The table above lists each one."
         },
         {
           "id": "achievement-1",
@@ -1279,7 +1265,8 @@
           "id": "marketing-channel-2",
           "claim_type": "broker_opinion",
           "support_refs": [
-            "comps-sale:conclusions"
+            "comps-sale:conclusions",
+            "sources:analyst-comps-1"
           ],
           "framed_as": "recommended marketing approach",
           "text": "Four apartment properties in this submarket traded to one buyer in a single June 2026 transaction, and two more are in escrow within half a mile of you right now. That is an active, identifiable pool of capital that has already proven it will write a check in Newhall, and it gets called by name."
@@ -1409,13 +1396,13 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "Newhall is trading. Eight apartment properties in and around this submarket have closed or gone under contract since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction. Buyer demand here is real and it is currently deeper than the supply of listed product."
+          "text": "Newhall is trading. Five apartment properties in and around this submarket have closed since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction, and two more are in escrow within half a mile of you right now. Buyer demand here is real and it is currently deeper than the supply of listed product."
         },
         {
           "id": "market-2",
           "claim_type": "broker_opinion",
           "support_refs": [
-            "comps-sale:sale-24522-chestnut"
+            "sources:analyst-comps-1"
           ],
           "framed_as": "broker market assessment",
           "text": "That demand is disciplined, not indiscriminate. An eight-unit building a fifth of a mile away has been marketed for eleven months without selling, at an ask well above where this submarket has actually been closing. Buyers here are active, and they are also willing to wait out a number they do not believe."
@@ -1716,10 +1703,11 @@
           "claim_type": "broker_opinion",
           "support_refs": [
             "pricing:decision",
-            "comps-sale:sale-24966-walnut"
+            "comps-sale:sale-24810-newhall",
+            "comps-sale:sale-18046-beneda"
           ],
           "framed_as": "broker opinion of value",
-          "text": "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis."
+          "text": "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On current income it prices at a 6.08% capitalization rate and an 8.95 gross rent multiplier."
         },
         {
           "id": "valuation-3",
@@ -1748,17 +1736,17 @@
             "pricing:operations"
           ],
           "framed_as": "pro forma scenario, not current income",
-          "text": "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
+          "text": "Stabilized at market rent with utility bill-back at $75 per unit per month, net operating income reaches $960,159. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
         },
         {
           "id": "disclosure-1",
           "claim_type": "verified_fact",
           "support_refs": [
             "sources:owner-pnl-1",
-            "sources:model-1"
+            "sources:glen-model-1"
           ],
           "framed_as": null,
-          "text": "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead."
+          "text": "Operating figures are drawn from the supporting Marcus & Millichap model dated September 10, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Insurance, repairs and maintenance, contract services and management are carried at underwritten figures; the owner's summary reports higher repairs and management and lower insurance and gardening, and the sensitivity table prices the owner's case alongside the case where the unleased units are carried at the leased average instead. Proposed financing reflects the loan terms in the supporting model and is subject to change; a buyer should obtain its own terms."
         },
         {
           "id": "disclosure-2",
@@ -1768,17 +1756,7 @@
             "sources:costar-sale-1"
           ],
           "framed_as": null,
-          "text": "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only."
-        },
-        {
-          "id": "disclosure-3",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "comps-sale:sale-24966-walnut",
-            "comps-sale:sale-24802-walnut"
-          ],
-          "framed_as": null,
-          "text": "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
+          "text": "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. The LAAA Team's own assignments in this market appear in the Track Record and are not used as comparables."
         }
       ],
       "exceptions": [
@@ -1803,7 +1781,7 @@
           "narrative": [
             "Of those closings, {apt_closed} are apartment sales covering {apt_units} units. CoStar ranked LAAA the most active multifamily team in Los Angeles County from 2019 through 2021, and the team has not finished a quarter without a closed sale since it was founded.",
             "Volume matters here for one reason: it is where the buyer list comes from. The buyer for this property is far more likely to be someone this team has already closed with than someone who finds it on a portal, and a team that closes every quarter is calling those people about something regardless.",
-            "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and we currently have 24802 Walnut Street in escrow. Two of the comparables in this analysis are our own transactions, which is why they carry confirmed income figures rather than estimates."
+            "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and today we have three more Walnut Street assignments within a mile of your door, one in escrow and two on the market. The table above lists each one."
           ],
           "achievements": [
             "Chairman's Club | Marcus & Millichap's top-tier annual honor",
@@ -1858,7 +1836,7 @@
         },
         "buyer_profile": {
           "market_narrative": [
-            "Newhall is trading. Eight apartment properties in and around this submarket have closed or gone under contract since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction. Buyer demand here is real and it is currently deeper than the supply of listed product.",
+            "Newhall is trading. Five apartment properties in and around this submarket have closed since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction, and two more are in escrow within half a mile of you right now. Buyer demand here is real and it is currently deeper than the supply of listed product.",
             "That demand is disciplined, not indiscriminate. An eight-unit building a fifth of a mile away has been marketed for eleven months without selling, at an ask well above where this submarket has actually been closing. Buyers here are active, and they are also willing to wait out a number they do not believe."
           ],
           "positioning_narrative": [
@@ -1921,15 +1899,14 @@
         "financial_analysis": {
           "valuation_narrative": [
             "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
-            "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis.",
+            "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On current income it prices at a 6.08% capitalization rate and an 8.95 gross rent multiplier.",
             "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
             "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
-            "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
+            "Stabilized at market rent with utility bill-back at $75 per unit per month, net operating income reaches $960,159. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
           ],
           "disclosures": [
-            "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead.",
-            "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only.",
-            "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
+            "Operating figures are drawn from the supporting Marcus & Millichap model dated September 10, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Insurance, repairs and maintenance, contract services and management are carried at underwritten figures; the owner's summary reports higher repairs and management and lower insurance and gardening, and the sensitivity table prices the owner's case alongside the case where the unleased units are carried at the leased average instead. Proposed financing reflects the loan terms in the supporting model and is subject to change; a buyer should obtain its own terms.",
+            "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. The LAAA Team's own assignments in this market appear in the Track Record and are not used as comparables."
           ]
         }
       },
@@ -1956,11 +1933,10 @@
           "id": "track-3",
           "claim_type": "verified_fact",
           "support_refs": [
-            "comps-sale:sale-24966-walnut",
-            "comps-sale:sale-24802-walnut"
+            "sources:team-stats"
           ],
           "framed_as": "local record",
-          "text": "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and we currently have 24802 Walnut Street in escrow. Two of the comparables in this analysis are our own transactions, which is why they carry confirmed income figures rather than estimates."
+          "text": "This is not an unfamiliar block for us. We listed and sold The Elms Apartments at 24966 Walnut Street, three quarters of a mile from your building, and today we have three more Walnut Street assignments within a mile of your door, one in escrow and two on the market. The table above lists each one."
         },
         {
           "id": "achievement-1",
@@ -2092,7 +2068,8 @@
           "id": "marketing-channel-2",
           "claim_type": "broker_opinion",
           "support_refs": [
-            "comps-sale:conclusions"
+            "comps-sale:conclusions",
+            "sources:analyst-comps-1"
           ],
           "framed_as": "recommended marketing approach",
           "text": "Four apartment properties in this submarket traded to one buyer in a single June 2026 transaction, and two more are in escrow within half a mile of you right now. That is an active, identifiable pool of capital that has already proven it will write a check in Newhall, and it gets called by name."
@@ -2222,13 +2199,13 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "Newhall is trading. Eight apartment properties in and around this submarket have closed or gone under contract since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction. Buyer demand here is real and it is currently deeper than the supply of listed product."
+          "text": "Newhall is trading. Five apartment properties in and around this submarket have closed since May 2025, including a four-property portfolio that changed hands in a single June 2026 transaction, and two more are in escrow within half a mile of you right now. Buyer demand here is real and it is currently deeper than the supply of listed product."
         },
         {
           "id": "market-2",
           "claim_type": "broker_opinion",
           "support_refs": [
-            "comps-sale:sale-24522-chestnut"
+            "sources:analyst-comps-1"
           ],
           "framed_as": "broker market assessment",
           "text": "That demand is disciplined, not indiscriminate. An eight-unit building a fifth of a mile away has been marketed for eleven months without selling, at an ask well above where this submarket has actually been closing. Buyers here are active, and they are also willing to wait out a number they do not believe."
@@ -2529,10 +2506,11 @@
           "claim_type": "broker_opinion",
           "support_refs": [
             "pricing:decision",
-            "comps-sale:sale-24966-walnut"
+            "comps-sale:sale-24810-newhall",
+            "comps-sale:sale-18046-beneda"
           ],
           "framed_as": "broker opinion of value",
-          "text": "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On income it prices at a 6.02% capitalization rate, above the 5.42% of the one closed sale carrying a confirmed cap rate and above the 5.49% of the escrow half a mile away, while its gross rent multiplier of 8.95 stays below every income-supported comparable in the analysis."
+          "text": "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On current income it prices at a 6.08% capitalization rate and an 8.95 gross rent multiplier."
         },
         {
           "id": "valuation-3",
@@ -2561,17 +2539,17 @@
             "pricing:operations"
           ],
           "framed_as": "pro forma scenario, not current income",
-          "text": "Stabilized at market rent with utility bill-back at $65 per unit per month, net operating income reaches $945,794. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
+          "text": "Stabilized at market rent with utility bill-back at $75 per unit per month, net operating income reaches $960,159. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
         },
         {
           "id": "disclosure-1",
           "claim_type": "verified_fact",
           "support_refs": [
             "sources:owner-pnl-1",
-            "sources:model-1"
+            "sources:glen-model-1"
           ],
           "framed_as": null,
-          "text": "Operating figures are drawn from the supporting Marcus & Millichap model dated September 8, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Repairs and maintenance and management are carried at underwritten figures; the owner's summary reports higher amounts for both, and the sensitivity table prices that case alongside the case where the unleased units are carried at the leased average instead."
+          "text": "Operating figures are drawn from the supporting Marcus & Millichap model dated September 10, 2026 and from the owner's August 2026 operating summary. Current rents are taken from the seller's June 2026 rent roll, with the vacant, TBD and manager units carried at the $1,900 market rent. Real estate taxes are carried at a reassessed $181,415, being $136,402 of ad valorem at the county rate of 1.1861% for tax rate area 00223 plus $45,013 of direct assessments, which are flat charges that do not move with the sale price. Insurance, repairs and maintenance, contract services and management are carried at underwritten figures; the owner's summary reports higher repairs and management and lower insurance and gardening, and the sensitivity table prices the owner's case alongside the case where the unleased units are carried at the leased average instead. Proposed financing reflects the loan terms in the supporting model and is subject to change; a buyer should obtain its own terms."
         },
         {
           "id": "disclosure-2",
@@ -2581,17 +2559,7 @@
             "sources:costar-sale-1"
           ],
           "framed_as": null,
-          "text": "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. Two further sales were made to a non-profit institutional buyer at prices well above the closed market range and are shown at nominal weight for completeness only."
-        },
-        {
-          "id": "disclosure-3",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "comps-sale:sale-24966-walnut",
-            "comps-sale:sale-24802-walnut"
-          ],
-          "framed_as": null,
-          "text": "The LAAA Team represented the seller of 24966 Walnut Street and currently represents the seller of 24802 Walnut Street, both of which appear in the comparable set."
+          "text": "Four of the closed sales shown closed together as a single four-property portfolio transaction on June 23, 2026, and their individual prices are allocations within that transaction rather than four independent trades. Each of the four carries its own recorded loan at 75% of its allocated price, so a lender underwrote every allocation on its own. The LAAA Team's own assignments in this market appear in the Track Record and are not used as comparables."
         }
       ],
       "exceptions": [
@@ -2610,10 +2578,6 @@
     "media_selection": {
       "deal_id": "24377-newhall-ave",
       "order": [
-        "comp-24411-newhall",
-        "comp-24966-walnut",
-        "comp-22710-8th",
-        "comp-24802-walnut",
         "comp-24838-newhall",
         "comp-24851-walnut",
         "comp-26087-bouquet",
@@ -2628,58 +2592,6 @@
       ],
       "hero": "subject-front",
       "items": [
-        {
-          "id": "comp-24411-newhall",
-          "sha256": "7af7932eadb2c6db954d7e6ba88ceb8f650f64732a6c0f45ac25ff51d197d9e0",
-          "phash": "ea2afac2a075c53c",
-          "category": "sale_comp",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "CoStar record 7655951 for 24411 Newhall Ave, Casa Seville Apartments.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
-          "required_credit": null,
-          "exception_id": null
-        },
-        {
-          "id": "comp-24966-walnut",
-          "sha256": "fa6f1f038f467a29a5ea74708225b3fb1a729805a9e9ce85382c8845b3da0624",
-          "phash": "b3e3a7964b0474d2",
-          "category": "sale_comp",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "CoStar record 7347308 for 24966 Walnut St, The Elms Apartments, a property LAAA listed and sold.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
-          "required_credit": null,
-          "exception_id": null
-        },
-        {
-          "id": "comp-22710-8th",
-          "sha256": "7a3612a148dc6225a48dd99e687783bdfccb45f212c27b2a07e9571b6332bc5a",
-          "phash": "8787c7d978bca860",
-          "category": "sale_comp",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "CoStar record 7172468 for 22710 8th St.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
-          "required_credit": null,
-          "exception_id": null
-        },
-        {
-          "id": "comp-24802-walnut",
-          "sha256": "be68068d5d7f2b1bdd63b55c6693c9c914e06d55c67bda60f4ac01508f9d38a2",
-          "phash": "ba8d42789ea58ad5",
-          "category": "sale_comp",
-          "stock_or_illustrative": false,
-          "property_match": "confirmed_human",
-          "match_basis": "CoStar record for 24802 Walnut St, a property LAAA currently has in escrow.",
-          "publication_basis": "glen_standing_rule",
-          "usage_scope": "LAAA broker opinion of value website for 24377 Newhall Avenue",
-          "required_credit": null,
-          "exception_id": null
-        },
         {
           "id": "comp-24838-newhall",
           "sha256": "3c970ed0b681ef06ad9e7afb5467934aa356cd3b16b356b8331b1bc75bbfd072",
@@ -2916,29 +2828,29 @@
   "approval_binding": {
     "deal_id": "24377-newhall-ave",
     "domains": {
-      "identity": "f558c0be36555dcd12cbca75a46bddaa01a39c87ba34b0fcfc7c7f7cf0d02c4f",
-      "financial_inputs": "64124c9d4a2630cfd60a8d59e190758fcc872832611655a47b33c91507d61025",
-      "pricing_decision": "83280cf7fd3c698412b2ae5a76d5cfb6e43733e3cee5001764ae23975b86ad5b",
-      "sale_comps": "cf95d5f23347919a8a0a3026d9f2a5682c0348aa79bff17d001f3f37dad44daf",
+      "identity": "e28c9dc7abca2866e3c69aee6fb4fbfb991ce71e28588039cf7d8f18d7f961bc",
+      "financial_inputs": "3b5e4d2d6c9f3e349c94ccaa4eeafca0072c621c94b0cf81f9d7141a4b955a6b",
+      "pricing_decision": "1e5a37ad9fd6ad6270044fdbdacd0f5cb632c9e79124177ad25de54a3a2cb97b",
+      "sale_comps": "ce1368f8e85c53e09d0c0d477cdf3986a8dae06d6a0471bd45f710711823edb3",
       "rent_comps": "16b6fbcad5e90eb9a40c2ffef34f14b1840cf1c88d88aa56a3ecd2a779298e5c",
-      "copy": "e0918ef45233ec668e29717e54e6e10f6387d7ee2d1bc4dfea7a8e6605c7af1f",
-      "media_selection": "2b7cbf01df785e8f89455c3e23789cf572be71c7177ccb66423025d1c2cc7898",
+      "copy": "209283b9c9eec2833506e64a2fddf6390fb6206f32b96d48ff01506e698ce1a9",
+      "media_selection": "5d307fbc564f3b509dd115fddeba7b4898142977b927905b77a3a505445d75ba",
       "regulatory_conclusions": "c8099b543b6e881ef2a5804702ac979a8350c11c119c808ead729cb4dafd8794"
     },
     "presentation_hashes": {
-      "identity": "287e6776ed70c6689caa3ad7dc79e32513291f975498c92b4b59c6a358a6019d",
-      "financial_inputs": "01af4eec7e65eebffa3e7d04736363da3b6792ce1b0c03fb49767a55c79facee",
-      "pricing_decision": "80216b9f42488512bca99687b885c0022b5abf34506bbf419f0a260076e47342",
-      "sale_comps": "e25035e9218536f9c37ebeb429ed951111cd47f9993d28f504746f2960800e84",
+      "identity": "acf6346cff9fb23777d9ae43d7d1fffe4f4c4d683a485d9fd4dd121d297944ba",
+      "financial_inputs": "981017b3a3d8bf132574ec7c0d1b446ae9d957c68ff61ecd0832512bcba9ce46",
+      "pricing_decision": "108d12262988e1981a5033ed30027cfd937cd556a987a52ec0073464ec80a381",
+      "sale_comps": "9febb0f06adf6ab34f8b2e66ec368d95d74ed73c3f9301da9a491eea8d767971",
       "rent_comps": "548da12ab2529c69d22b692a6824c8cb49248437a0522fa6477bea0086663532",
-      "copy": "4f4b8b14b3e477703d81dbad53f1b0a5ceae42ac76270475da6ef907ce88566c",
+      "copy": "e3eb177eef2eac4f9cb0a479b56f96a7532141e58250d4257522c2d6a0e4b490",
       "media_selection": "6151536bd8dc2f29b950c9a854efb9497ac981e0cad74a2b9681d0e3f8a1c963",
       "regulatory_conclusions": "d8ce992751cba4732d941b6428bbbc8d745f739fa0b543c531658b80a0a24139"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-09T23:57:40+00:00",
+    "generated": "2026-09-10T23:29:58+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
