@@ -531,7 +531,7 @@
       "valuation_narrative": [
         "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
         "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On current income it prices at a 6.08% capitalization rate and an 8.95 gross rent multiplier.",
-        "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
+        "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, a gap of roughly 20%, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
         "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
         "Stabilized at market rent with utility bill-back at $75 per unit per month, net operating income reaches $960,159. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
       ],
@@ -613,13 +613,6 @@
           "width": 765.62,
           "height": 463.33,
           "sha256": "3db5cf23eecd98189aa5c6f805927c6ae258069d5c2984294a6e68577a48a6fa"
-        },
-        {
-          "src": "images/model-page-05.svg",
-          "label": "Pricing Matrix and Loan Terms",
-          "width": 765.62,
-          "height": 387.88,
-          "sha256": "b1af212b4504b840573f1e60edbf3ba551277d90b4284cf111f8c6db9b00c0c6"
         }
       ],
       "maps": {
@@ -939,7 +932,7 @@
         },
         "local_listings_source": {
           "source": "https://www.laaa.com/listings",
-          "pulled": "2026-09-10T23:41:30+00:00"
+          "pulled": "2026-09-11T01:20:10+00:00"
         }
       }
     }
@@ -1097,7 +1090,7 @@
           "valuation_narrative": [
             "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
             "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On current income it prices at a 6.08% capitalization rate and an 8.95 gross rent multiplier.",
-            "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
+            "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, a gap of roughly 20%, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
             "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
             "Stabilized at market rent with utility bill-back at $75 per unit per month, net operating income reaches $960,159. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
           ],
@@ -1717,7 +1710,7 @@
             "pricing:risks"
           ],
           "framed_as": "what moves the number",
-          "text": "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover."
+          "text": "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, a gap of roughly 20%, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover."
         },
         {
           "id": "valuation-lihtc",
@@ -1900,7 +1893,7 @@
           "valuation_narrative": [
             "The recommendation rests on current income rather than on the pro forma. Closed arm's-length sales in Newhall run from $176,607 to $209,091 per unit, and the only closed trade at comparable scale, a 65-unit building half a mile up the same street, allocated at $182,692 per unit inside a four-property portfolio transaction. At $174,242 per unit the recommendation sits below all of them. Unit size is the reason.",
             "This building averages 559 square feet per unit, the smallest in the comparable set. The closed sales run from 607 square feet a unit at 24810 Newhall Avenue up to 907 at 18046 Beneda Lane, so a buyer paying by the door gets less square footage here than at any of them. Price per square foot is where the two reconcile. At $311.59 the recommendation lands within three cents of 24810 Newhall Avenue at $311.56, the closest comparable on unit size and the only single-asset trade in the set. On current income it prices at a 6.08% capitalization rate and an 8.95 gross rent multiplier.",
-            "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
+            "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, a gap of roughly 20%, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover.",
             "The property was originally developed with 1987 low-income housing tax credits. That allocation carried a fifteen-year compliance period and no extended-use covenant, since the thirty-year requirement arrived only for allocations after 1989, and the restrictions expired in 2002. Ownership confirms the property carries no rent restriction and no age restriction today. Third-party data services still display the historical allocation, which is a record of a 1987 program rather than a live covenant. It does explain the rent profile: rents were held down for fifteen years and were never reset to market afterward.",
             "Stabilized at market rent with utility bill-back at $75 per unit per month, net operating income reaches $960,159. That figure is a projection of what the property can earn, not what it earns today, and the recommendation does not rest on it."
           ],
@@ -2520,7 +2513,7 @@
             "pricing:risks"
           ],
           "framed_as": "what moves the number",
-          "text": "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, 17% of upside measured across the whole building, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover."
+          "text": "Two things move this number more than the comparables do. The first is the rent gap. In-place rents average $1,584 against a $1,900 market rent, a gap of roughly 20%, on an asset with no local rent stabilization ordinance. The second is how the unleased units are carried. The vacant units, the manager unit and the two units the rent roll does not list sit in scheduled rent at the $1,900 market rent rather than at an achieved rent, which is standard practice for a marketed vacancy and is what the current capitalization rate is struck on. Ownership prices its current vacancies at $1,590 to $1,630. The sensitivity table prices that case, the owner's higher reported repairs and management, and the case where vacancy is carried at the 6.06% shown on the June rent roll rather than at the 3% lenders underwrite for turnover."
         },
         {
           "id": "valuation-lihtc",
@@ -2829,28 +2822,28 @@
     "deal_id": "24377-newhall-ave",
     "domains": {
       "identity": "e28c9dc7abca2866e3c69aee6fb4fbfb991ce71e28588039cf7d8f18d7f961bc",
-      "financial_inputs": "3b5e4d2d6c9f3e349c94ccaa4eeafca0072c621c94b0cf81f9d7141a4b955a6b",
+      "financial_inputs": "99fc9e247395728f19fc34826d8832a589c633f4c9ac924f9ca39dc110481efc",
       "pricing_decision": "1e5a37ad9fd6ad6270044fdbdacd0f5cb632c9e79124177ad25de54a3a2cb97b",
       "sale_comps": "ce1368f8e85c53e09d0c0d477cdf3986a8dae06d6a0471bd45f710711823edb3",
       "rent_comps": "16b6fbcad5e90eb9a40c2ffef34f14b1840cf1c88d88aa56a3ecd2a779298e5c",
-      "copy": "209283b9c9eec2833506e64a2fddf6390fb6206f32b96d48ff01506e698ce1a9",
+      "copy": "02bd73951aaee535f5c6047c68dd2ec8bf71a264f717f7fbc6dd9663e900f0db",
       "media_selection": "5d307fbc564f3b509dd115fddeba7b4898142977b927905b77a3a505445d75ba",
       "regulatory_conclusions": "c8099b543b6e881ef2a5804702ac979a8350c11c119c808ead729cb4dafd8794"
     },
     "presentation_hashes": {
       "identity": "acf6346cff9fb23777d9ae43d7d1fffe4f4c4d683a485d9fd4dd121d297944ba",
-      "financial_inputs": "981017b3a3d8bf132574ec7c0d1b446ae9d957c68ff61ecd0832512bcba9ce46",
+      "financial_inputs": "8c26ffeeb5a4eb9fc074deea04ab48fd4748330a246d7254d0fd66a1f8efcebe",
       "pricing_decision": "108d12262988e1981a5033ed30027cfd937cd556a987a52ec0073464ec80a381",
       "sale_comps": "9febb0f06adf6ab34f8b2e66ec368d95d74ed73c3f9301da9a491eea8d767971",
       "rent_comps": "548da12ab2529c69d22b692a6824c8cb49248437a0522fa6477bea0086663532",
-      "copy": "e3eb177eef2eac4f9cb0a479b56f96a7532141e58250d4257522c2d6a0e4b490",
+      "copy": "32d0262a738c0cede954df70c87a51a863ef37a673c7aec3072863a0f5a9e492",
       "media_selection": "6151536bd8dc2f29b950c9a854efb9497ac981e0cad74a2b9681d0e3f8a1c963",
       "regulatory_conclusions": "d8ce992751cba4732d941b6428bbbc8d745f739fa0b543c531658b80a0a24139"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-10T23:41:30+00:00",
+    "generated": "2026-09-11T01:20:10+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

@@ -201,7 +201,7 @@ def image_references(html):
     skipped the mobile side of every ``<picture>`` element, so a missing tall
     map could pass while the desktop image existed.
     """
-    suffix = r"(?:jpg|jpeg|png|webp|svg)"
+    suffix = r"(?:jpg|jpeg|png|webp|gif|avif|svg)"
     refs = set(re.findall(
         rf"""(?:src|href|content)=["']([^"']+\.{suffix}(?:[?#][^"']*)?)["']""",
         html,
